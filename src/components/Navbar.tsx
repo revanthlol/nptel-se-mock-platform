@@ -60,8 +60,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="font-heading font-bold text-sm sm:text-base tracking-tight text-warm-charcoal dark:text-dark-text">
                 NPTEL SE
               </span>
-              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-sage-100 dark:bg-sage-950/70 text-sage-800 dark:text-sage-200">
-                IIT KGP
+              <span className="text-[11px] text-warm-muted dark:text-dark-muted font-normal">
+                • IIT Kharagpur
               </span>
             </div>
             <p className="text-[10px] text-warm-muted dark:text-dark-muted hidden sm:block">
@@ -73,7 +73,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Center: Live Timer if in exam, or Nav Pills if outside exam */}
         {isExamActive ? (
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sage-100/80 dark:bg-sage-950/50 border border-sage-300 dark:border-sage-800/60 text-sage-800 dark:text-sage-200 text-xs sm:text-sm font-semibold tracking-wide shadow-2xs">
+            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-warm-surface dark:bg-dark-surface border border-warm-border dark:border-dark-border text-sage-700 dark:text-sage-300 text-xs sm:text-sm font-semibold tracking-wide">
               <Timer className="w-4 h-4 animate-pulse text-sage-600 dark:text-sage-400" />
               <span className="tabular-nums font-mono">{timerSeconds !== undefined ? formatTime(timerSeconds) : '--:--'}</span>
             </div>
