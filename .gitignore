@@ -10,3 +10,4 @@ parse_test.py
 parse_deep.py
 save_diagrams.py
 __pycache__/
+.vercel

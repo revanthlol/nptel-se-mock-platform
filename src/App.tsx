@@ -219,14 +219,14 @@ export const App: React.FC = () => {
 
       {/* Mobile Bottom Navigation Bar (Shown only when NOT in an active exam simulation) */}
       {currentMode !== 'mock-exam' && (
-        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-30 apple-glass border-t border-black/[0.08] dark:border-white/[0.08] px-2 py-1.5 flex items-center justify-around text-[10px] font-semibold text-stone-600 dark:text-stone-400">
+        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-30 warm-glass border-t border-warm-border dark:border-dark-border px-2 py-1.5 flex items-center justify-around text-[10px] font-semibold text-warm-muted dark:text-dark-muted">
           <button
             onClick={() => {
               setCurrentMode('home');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className={`flex flex-col items-center gap-1 p-1.5 rounded-lg transition-colors ${
-              currentMode === 'home' ? 'text-emerald-600 dark:text-emerald-400 font-bold' : ''
+              currentMode === 'home' ? 'text-sage-700 dark:text-sage-300 font-bold' : ''
             }`}
           >
             <Home className="w-4 h-4" />
@@ -239,7 +239,7 @@ export const App: React.FC = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className={`flex flex-col items-center gap-1 p-1.5 rounded-lg transition-colors ${
-              currentMode === 'practice' ? 'text-amber-600 dark:text-amber-400 font-bold' : ''
+              currentMode === 'practice' ? 'text-sage-700 dark:text-sage-300 font-bold' : ''
             }`}
           >
             <Sparkles className="w-4 h-4" />
@@ -252,7 +252,7 @@ export const App: React.FC = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className={`flex flex-col items-center gap-1 p-1.5 rounded-lg transition-colors ${
-              currentMode === 'bank' ? 'text-blue-600 dark:text-blue-400 font-bold' : ''
+              currentMode === 'bank' ? 'text-sage-700 dark:text-sage-300 font-bold' : ''
             }`}
           >
             <Layers className="w-4 h-4" />
@@ -265,7 +265,7 @@ export const App: React.FC = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className={`flex flex-col items-center gap-1 p-1.5 rounded-lg transition-colors ${
-              currentMode === 'cheatsheet' ? 'text-emerald-600 dark:text-emerald-400 font-bold' : ''
+              currentMode === 'cheatsheet' ? 'text-sage-700 dark:text-sage-300 font-bold' : ''
             }`}
           >
             <BookOpen className="w-4 h-4" />
@@ -277,23 +277,23 @@ export const App: React.FC = () => {
       {/* Exit Exam Modal */}
       {isExitModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-          <div className="w-full max-w-sm bg-white dark:bg-stone-850 rounded-2xl p-6 shadow-2xl border border-black/10 dark:border-white/10 space-y-4">
-            <h3 className="text-base font-bold text-stone-900 dark:text-white">
+          <div className="w-full max-w-sm bg-warm-surface dark:bg-dark-surface rounded-2xl p-6 shadow-2xl border border-warm-border dark:border-dark-border space-y-4">
+            <h3 className="font-heading text-base font-bold text-warm-charcoal dark:text-dark-text">
               Exit Mock Examination?
             </h3>
-            <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+            <p className="text-xs text-warm-muted dark:text-dark-muted leading-relaxed">
               Your ongoing examination session and active timer will be aborted. Are you sure you want to exit to the home dashboard?
             </p>
             <div className="flex items-center gap-2.5 pt-2">
               <button
                 onClick={() => setIsExitModalOpen(false)}
-                className="flex-1 py-2.5 rounded-xl border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 font-semibold text-xs hover:bg-stone-50 dark:hover:bg-stone-800 transition-colors"
+                className="flex-1 py-2.5 rounded-xl border border-warm-border dark:border-dark-border text-warm-charcoal dark:text-dark-text font-semibold text-xs hover:bg-warm-surface-hover dark:hover:bg-dark-surface-hover transition-colors"
               >
                 Stay in Exam
               </button>
               <button
                 onClick={handleConfirmExitExam}
-                className="flex-1 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs shadow-xs transition-colors"
+                className="flex-1 py-2.5 rounded-xl bg-red-700 hover:bg-red-800 text-white font-bold text-xs shadow-xs transition-colors"
               >
                 Yes, Exit
               </button>

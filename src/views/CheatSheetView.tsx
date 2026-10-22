@@ -15,7 +15,7 @@ export const CheatSheetView: React.FC = () => {
     {
       id: 'testing',
       title: 'Testing Formulas & Coverage Metrics (Weeks 10 - 12)',
-      icon: <Calculator className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />,
+      icon: <Calculator className="w-4 h-4 text-sage-600 dark:text-sage-400" />,
       items: [
         {
           term: 'Cyclomatic Complexity V(G)',
@@ -68,7 +68,7 @@ export const CheatSheetView: React.FC = () => {
     {
       id: 'design',
       title: 'Software Design: Cohesion & Coupling Scales (Weeks 5 - 6)',
-      icon: <Layers className="w-4 h-4 text-blue-600 dark:text-blue-400" />,
+      icon: <Layers className="w-4 h-4 text-sage-600 dark:text-sage-400" />,
       items: [
         {
           term: 'Cohesion Scale (From Best / Desirable to Worst)',
@@ -100,7 +100,7 @@ export const CheatSheetView: React.FC = () => {
     {
       id: 'uml',
       title: 'UML & Object-Oriented Relationships (Weeks 7 - 9)',
-      icon: <GitBranch className="w-4 h-4 text-purple-600 dark:text-purple-400" />,
+      icon: <GitBranch className="w-4 h-4 text-sage-600 dark:text-sage-400" />,
       items: [
         {
           term: 'Aggregation vs. Composition',
@@ -142,7 +142,7 @@ export const CheatSheetView: React.FC = () => {
     {
       id: 'process',
       title: 'Process Models, Agile & Estimation (Weeks 0 - 4)',
-      icon: <ShieldCheck className="w-4 h-4 text-amber-600 dark:text-amber-400" />,
+      icon: <ShieldCheck className="w-4 h-4 text-sage-600 dark:text-sage-400" />,
       items: [
         {
           term: 'Classical Waterfall vs. Agile',
@@ -188,45 +188,45 @@ export const CheatSheetView: React.FC = () => {
   }).filter(sec => sec.items.length > 0);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6 pb-20">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 text-xs font-semibold mb-1">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-sage-100 dark:bg-sage-950/60 text-sage-800 dark:text-sage-200 text-xs font-semibold mb-1">
             <BookOpen className="w-3.5 h-3.5" />
             <span>Last-Minute Revision</span>
           </div>
-          <h2 className="text-2xl font-bold text-stone-900 dark:text-white">
+          <h2 className="font-heading text-2xl font-bold text-warm-charcoal dark:text-dark-text">
             High-Yield Software Engineering Formula & Concept Sheet
           </h2>
-          <p className="text-xs text-stone-500 dark:text-stone-400 mt-0.5">
+          <p className="text-xs text-warm-muted dark:text-dark-muted mt-0.5">
             Key formulas, metric scales, UML rules, and coverage standards for quick reading before entering the exam.
           </p>
         </div>
 
         {/* Search */}
         <div className="relative w-full sm:w-64">
-          <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <Search className="w-4 h-4 text-warm-muted absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
             value={filterQuery}
             onChange={e => setFilterQuery(e.target.value)}
             placeholder="Search formula: V(G), MC/DC..."
-            className="w-full pl-9 pr-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-850 text-xs text-stone-900 dark:text-white placeholder:text-stone-400 focus:outline-hidden"
+            className="w-full pl-9 pr-3 py-2 rounded-xl border border-warm-border dark:border-dark-border bg-warm-surface dark:bg-dark-surface text-xs text-warm-charcoal dark:text-dark-text placeholder:text-warm-muted/60 focus:outline-hidden"
           />
         </div>
       </div>
 
-      {/* Sections */}
+      {/* Sections - Seamless Warm Containers */}
       <div className="space-y-6">
         {filteredSections.map(sec => (
           <div 
             key={sec.id}
-            className="rounded-2xl bg-white dark:bg-stone-850 p-5 sm:p-7 border border-stone-200 dark:border-stone-750 shadow-2xs space-y-5"
+            className="rounded-2xl bg-warm-surface/90 dark:bg-dark-surface/90 p-5 sm:p-7 border border-warm-border dark:border-dark-border shadow-2xs space-y-5"
           >
-            <div className="flex items-center gap-2 pb-3 border-b border-stone-100 dark:border-stone-800">
+            <div className="flex items-center gap-2 pb-3 border-b border-warm-border dark:border-dark-border">
               {sec.icon}
-              <h3 className="font-bold text-base text-stone-900 dark:text-white">
+              <h3 className="font-heading font-bold text-base text-warm-charcoal dark:text-dark-text">
                 {sec.title}
               </h3>
             </div>
@@ -235,28 +235,28 @@ export const CheatSheetView: React.FC = () => {
               {sec.items.map((item, idx) => (
                 <div 
                   key={idx}
-                  className="p-4 rounded-xl bg-stone-50/70 dark:bg-stone-900/40 border border-stone-200/70 dark:border-stone-800 space-y-2 text-xs"
+                  className="p-4 rounded-xl bg-warm-pill/60 dark:bg-dark-pill/50 border border-warm-border dark:border-dark-border space-y-2 text-xs"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-bold text-sm text-stone-900 dark:text-white">
+                    <span className="font-heading font-bold text-sm text-warm-charcoal dark:text-dark-text">
                       {item.term}
                     </span>
                     {item.formula && (
-                      <code className="px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-mono text-[11px] font-semibold">
+                      <code className="px-2 py-0.5 rounded bg-sage-100 dark:bg-sage-950/70 text-sage-900 dark:text-sage-200 font-mono text-[11px] font-semibold">
                         {item.formula}
                       </code>
                     )}
                   </div>
 
-                  <p className="text-stone-600 dark:text-stone-400 leading-relaxed font-normal">
+                  <p className="text-warm-muted dark:text-dark-muted leading-relaxed font-normal">
                     {item.detail}
                   </p>
 
                   {item.notes && item.notes.length > 0 && (
                     <ul className="space-y-1 pt-1">
                       {item.notes.map((note, nIdx) => (
-                        <li key={nIdx} className="flex items-start gap-1.5 text-stone-700 dark:text-stone-300">
-                          <span className="text-emerald-600 dark:text-emerald-400 font-bold shrink-0">•</span>
+                        <li key={nIdx} className="flex items-start gap-1.5 text-warm-charcoal dark:text-dark-text">
+                          <span className="text-sage-600 dark:text-sage-400 font-bold shrink-0">•</span>
                           <span className="leading-relaxed">{note}</span>
                         </li>
                       ))}

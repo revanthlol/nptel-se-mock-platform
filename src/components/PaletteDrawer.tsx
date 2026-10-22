@@ -37,44 +37,44 @@ export const PaletteDrawer: React.FC<PaletteDrawerProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex justify-end bg-black/40 backdrop-blur-xs animate-in fade-in duration-200" onClick={onClose}>
       <div 
-        className="w-full max-w-md sm:max-w-sm h-full bg-[#FAF8F5] dark:bg-[#1A1B20] border-l border-black/10 dark:border-white/10 shadow-2xl flex flex-col p-5 overflow-y-auto"
+        className="w-full max-w-md sm:max-w-sm h-full bg-warm-canvas dark:bg-dark-canvas border-l border-warm-border dark:border-dark-border shadow-2xl flex flex-col p-5 overflow-y-auto"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="flex items-center justify-between pb-4 border-b border-black/10 dark:border-white/10">
+        <div className="flex items-center justify-between pb-4 border-b border-warm-border dark:border-dark-border">
           <div>
-            <h3 className="font-bold text-base text-stone-900 dark:text-white">
+            <h3 className="font-heading font-bold text-base text-warm-charcoal dark:text-dark-text">
               Question Palette
             </h3>
-            <p className="text-xs text-stone-500 dark:text-stone-400">
+            <p className="text-xs text-warm-muted dark:text-dark-muted">
               50 Questions • 100 Marks
             </p>
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-full hover:bg-stone-200/60 dark:hover:bg-white/10 text-stone-600 dark:text-stone-300 transition-colors"
+            className="p-1.5 rounded-full hover:bg-warm-surface dark:hover:bg-dark-surface text-warm-charcoal dark:text-dark-text transition-colors"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Legend */}
-        <div className="grid grid-cols-2 gap-2 my-4 p-3 rounded-xl bg-white dark:bg-stone-850 border border-black/5 dark:border-white/5 text-[11px]">
+        <div className="grid grid-cols-2 gap-2 my-4 p-3 rounded-xl bg-warm-surface dark:bg-dark-surface border border-warm-border dark:border-dark-border text-[11px]">
           <div className="flex items-center gap-2">
-            <span className="w-3.5 h-3.5 rounded-md bg-emerald-600 dark:bg-emerald-500 text-white flex items-center justify-center text-[9px] font-bold">✓</span>
-            <span className="text-stone-600 dark:text-stone-300">Answered ({answeredCount})</span>
+            <span className="w-3.5 h-3.5 rounded-md bg-sage-600 dark:bg-sage-500 text-white flex items-center justify-center text-[9px] font-bold">✓</span>
+            <span className="text-warm-muted dark:text-dark-muted tabular-nums">Answered ({answeredCount})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-3.5 h-3.5 rounded-md bg-amber-500 text-white flex items-center justify-center text-[9px] font-bold">★</span>
-            <span className="text-stone-600 dark:text-stone-300">Review ({reviewCount})</span>
+            <span className="w-3.5 h-3.5 rounded-md bg-amber-600 text-white flex items-center justify-center text-[9px] font-bold">★</span>
+            <span className="text-warm-muted dark:text-dark-muted tabular-nums">Review ({reviewCount})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-3.5 h-3.5 rounded-md bg-stone-200 dark:bg-stone-700"></span>
-            <span className="text-stone-600 dark:text-stone-300">Unanswered ({unansweredCount})</span>
+            <span className="w-3.5 h-3.5 rounded-md bg-warm-pill dark:bg-dark-pill"></span>
+            <span className="text-warm-muted dark:text-dark-muted tabular-nums">Unanswered ({unansweredCount})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-3.5 h-3.5 rounded-md border-2 border-emerald-600"></span>
-            <span className="text-stone-600 dark:text-stone-300">Current Question</span>
+            <span className="w-3.5 h-3.5 rounded-md border-2 border-sage-600"></span>
+            <span className="text-warm-muted dark:text-dark-muted">Current</span>
           </div>
         </div>
 
@@ -87,18 +87,18 @@ export const PaletteDrawer: React.FC<PaletteDrawerProps> = ({
               const isAnswered = res && res.selectedKeys.length > 0;
               const isReview = res && res.isMarkedForReview;
 
-              let btnStyle = "bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-stone-700";
+              let btnStyle = "bg-warm-surface dark:bg-dark-surface text-warm-charcoal dark:text-dark-text border border-warm-border dark:border-dark-border";
 
               if (isAnswered && isReview) {
-                btnStyle = "bg-amber-500 text-white border-amber-600 shadow-xs";
+                btnStyle = "bg-amber-600 text-white border-transparent shadow-xs";
               } else if (isAnswered) {
-                btnStyle = "bg-emerald-600 dark:bg-emerald-600 text-white border-emerald-700 shadow-xs";
+                btnStyle = "bg-sage-600 dark:bg-sage-500 text-white border-transparent shadow-xs";
               } else if (isReview) {
-                btnStyle = "bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-400";
+                btnStyle = "bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-200 border border-amber-300";
               }
 
               if (isCurrent) {
-                btnStyle += " ring-2 ring-offset-2 ring-emerald-600 dark:ring-offset-stone-900 font-bold scale-105 z-10";
+                btnStyle += " ring-2 ring-offset-2 ring-sage-600 dark:ring-offset-dark-canvas font-bold scale-105 z-10";
               }
 
               return (
@@ -108,11 +108,11 @@ export const PaletteDrawer: React.FC<PaletteDrawerProps> = ({
                     onSelectIndex(idx);
                     onClose();
                   }}
-                  className={`h-10 rounded-xl font-medium text-xs flex flex-col items-center justify-center relative transition-all spring-press ${btnStyle}`}
+                  className={`h-10 rounded-xl font-medium text-xs flex flex-col items-center justify-center relative transition-all spring-press tabular-nums ${btnStyle}`}
                 >
                   <span>{idx + 1}</span>
                   {isReview && !isAnswered && (
-                    <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                    <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-amber-600"></span>
                   )}
                   {isAnswered && isReview && (
                     <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-white"></span>
@@ -124,10 +124,10 @@ export const PaletteDrawer: React.FC<PaletteDrawerProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="pt-4 border-t border-black/10 dark:border-white/10 mt-auto">
+        <div className="pt-4 border-t border-warm-border dark:border-dark-border mt-auto">
           <button
             onClick={onClose}
-            className="w-full py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 font-medium text-xs hover:opacity-90 transition-opacity"
+            className="w-full py-2.5 rounded-xl bg-warm-charcoal dark:bg-dark-pill text-warm-canvas dark:text-dark-text font-medium text-xs hover:opacity-90 transition-opacity"
           >
             Close Palette
           </button>

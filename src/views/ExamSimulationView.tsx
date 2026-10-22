@@ -103,22 +103,22 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 pb-28">
-      {/* Top Question Info Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 p-3 sm:p-4 rounded-2xl bg-white dark:bg-stone-850 border border-stone-200 dark:border-stone-750 shadow-2xs">
+      {/* Top Question Info Bar - Seamless Warm Surface */}
+      <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 sm:p-4 rounded-2xl bg-warm-surface/90 dark:bg-dark-surface/90 border border-warm-border dark:border-dark-border shadow-2xs">
         <div className="flex items-center gap-2.5">
-          <span className="font-extrabold text-base sm:text-lg text-stone-900 dark:text-white">
+          <span className="font-heading font-extrabold text-base sm:text-lg text-warm-charcoal dark:text-dark-text">
             Question {currentIndex + 1}
           </span>
-          <span className="text-xs text-stone-400 font-medium">/ 50</span>
+          <span className="text-xs text-warm-muted dark:text-dark-muted font-medium tabular-nums">/ 50</span>
 
           <span className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full ${
             currentQuestion.type === 'MSQ'
-              ? 'bg-purple-100 dark:bg-purple-950/60 text-purple-800 dark:text-purple-300 border border-purple-200 dark:border-purple-800/40'
-              : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/40'
+              ? 'bg-sage-200/80 dark:bg-sage-950/70 text-sage-900 dark:text-sage-200'
+              : 'bg-warm-pill dark:bg-dark-pill text-warm-charcoal dark:text-dark-text'
           }`}>
             {currentQuestion.type === 'MSQ' ? 'MSQ • Multiple Correct' : 'MCQ • Single Correct'}
           </span>
-          <span className="text-xs text-stone-500 font-medium hidden sm:inline">
+          <span className="text-xs text-warm-muted dark:text-dark-muted font-medium hidden sm:inline tabular-nums">
             (+2.0 marks)
           </span>
         </div>
@@ -129,8 +129,8 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
             onClick={handleToggleBookmark}
             className={`p-2 rounded-xl transition-colors ${
               bookmarked 
-                ? 'bg-amber-100 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400' 
-                : 'hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-400 dark:text-stone-500'
+                ? 'bg-amber-100 dark:bg-amber-950/50 text-amber-700 dark:text-amber-400' 
+                : 'hover:bg-warm-pill dark:hover:bg-dark-pill text-warm-muted dark:text-dark-muted'
             }`}
             title="Star Question"
           >
@@ -140,39 +140,39 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
           {/* Palette button */}
           <button
             onClick={() => setIsPaletteOpen(true)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200/70 text-xs font-semibold text-stone-700 dark:text-stone-300 transition-colors"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-warm-pill/80 dark:bg-dark-pill/80 hover:bg-warm-surface-hover text-xs font-semibold text-warm-charcoal dark:text-dark-text transition-colors"
           >
-            <Grid className="w-3.5 h-3.5" />
-            <span>Palette ({answeredCount}/50)</span>
+            <Grid className="w-3.5 h-3.5 text-sage-600 dark:text-sage-400" />
+            <span className="tabular-nums">Palette ({answeredCount}/50)</span>
           </button>
 
           {/* Submit Test Button */}
           <button
             onClick={() => setIsSubmitModalOpen(true)}
-            className="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-2xs"
+            className="px-3.5 py-1.5 rounded-xl bg-sage-600 hover:bg-sage-700 text-white text-xs font-bold transition-all shadow-2xs spring-press"
           >
             Submit Exam
           </button>
         </div>
       </div>
 
-      {/* Main Question Card */}
-      <div className="rounded-2xl bg-white dark:bg-stone-850 p-5 sm:p-7 border border-stone-200 dark:border-stone-750 shadow-sm space-y-6">
+      {/* Main Question Card - Seamless Warm Surface (NO harsh white framing) */}
+      <div className="rounded-2xl bg-warm-surface/90 dark:bg-dark-surface/90 p-5 sm:p-7 border border-warm-border dark:border-dark-border shadow-xs space-y-6">
         {/* Question Topic & Number badge */}
-        <div className="flex items-center justify-between text-xs text-stone-500 dark:text-stone-400">
-          <span className="font-semibold text-stone-700 dark:text-stone-300">
+        <div className="flex items-center justify-between text-xs text-warm-muted dark:text-dark-muted">
+          <span className="font-semibold text-warm-charcoal dark:text-dark-text">
             {currentQuestion.assignmentName} • {currentQuestion.topic}
           </span>
           {currentQuestion.type === 'MSQ' && (
-            <span className="text-[11px] text-amber-600 dark:text-amber-400 flex items-center gap-1">
-              <AlertCircle className="w-3.5 h-3.5" />
+            <span className="text-[11px] text-sage-700 dark:text-sage-300 flex items-center gap-1 font-medium">
+              <AlertCircle className="w-3.5 h-3.5 text-sage-600" />
               <span>Select one or more. Partial marks if 0 wrong.</span>
             </span>
           )}
         </div>
 
         {/* Question Prompt */}
-        <div className="text-base sm:text-lg font-medium text-stone-900 dark:text-stone-100 leading-relaxed">
+        <div className="text-base sm:text-lg font-medium text-warm-charcoal dark:text-dark-text leading-relaxed">
           {currentQuestion.question}
         </div>
 
@@ -183,7 +183,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
 
         {/* Diagram Image if present */}
         {currentQuestion.image && (
-          <div className="my-4 p-3 rounded-xl bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-750 flex flex-col items-center">
+          <div className="my-4 p-3 rounded-xl bg-warm-pill/50 dark:bg-dark-pill/50 border border-warm-border dark:border-dark-border flex flex-col items-center">
             <div 
               onClick={() => setModalImage(currentQuestion.image!)}
               className="cursor-pointer group relative max-w-lg w-full flex flex-col items-center"
@@ -193,16 +193,16 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
                 alt="Question Diagram" 
                 className="max-h-64 object-contain rounded-lg transition-transform group-hover:scale-[1.01]"
               />
-              <div className="mt-2 flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400 font-medium">
-                <ZoomIn className="w-3.5 h-3.5" />
+              <div className="mt-2 flex items-center gap-1 text-xs text-sage-700 dark:text-sage-300 font-medium">
+                <ZoomIn className="w-3.5 h-3.5 text-sage-600" />
                 <span>Tap to view enlarged high-res diagram</span>
               </div>
             </div>
           </div>
         )}
 
-        {/* Options List */}
-        <div className="space-y-3 pt-2">
+        {/* Options List - Subtle Tone-on-Tone Pills (No harsh borders) */}
+        <div className="space-y-2.5 pt-2">
           {currentQuestion.options.map(opt => {
             const isSelected = currentResponse.selectedKeys.includes(opt.key);
             const isMSQ = currentQuestion.type === 'MSQ';
@@ -213,15 +213,15 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
                 onClick={() => handleToggleOption(opt.key)}
                 className={`flex items-start gap-3 p-3.5 sm:p-4 rounded-xl border cursor-pointer select-none transition-all spring-press ${
                   isSelected
-                    ? 'border-emerald-600 bg-emerald-50/70 dark:bg-emerald-950/30 text-stone-900 dark:text-white ring-1 ring-emerald-600/50 shadow-2xs'
-                    : 'border-stone-200 dark:border-stone-700/80 hover:border-stone-300 dark:hover:border-stone-600 bg-white dark:bg-stone-850/60 text-stone-800 dark:text-stone-200'
+                    ? 'border-sage-500/80 bg-sage-100/90 dark:bg-sage-950/60 text-warm-charcoal dark:text-dark-text shadow-2xs'
+                    : 'border-transparent bg-warm-pill/65 dark:bg-dark-pill/60 hover:bg-warm-surface-hover dark:hover:bg-dark-surface-hover text-warm-charcoal dark:text-dark-text'
                 }`}
               >
-                {/* Checkbox / Radio symbol */}
+                {/* Checkbox / Radio badge */}
                 <div className={`w-6 h-6 rounded-lg shrink-0 flex items-center justify-center font-bold text-xs uppercase transition-colors ${
                   isSelected
-                    ? 'bg-emerald-600 text-white shadow-xs'
-                    : 'bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 border border-stone-300 dark:border-stone-700'
+                    ? 'bg-sage-600 dark:bg-sage-500 text-white shadow-xs'
+                    : 'bg-warm-surface dark:bg-dark-surface text-warm-muted dark:text-dark-muted'
                 }`}>
                   {opt.key}
                 </div>
@@ -235,18 +235,18 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
                   {isMSQ ? (
                     <div className={`w-4 h-4 rounded-sm border flex items-center justify-center transition-colors ${
                       isSelected
-                        ? 'bg-emerald-600 border-emerald-600 text-white'
-                        : 'border-stone-300 dark:border-stone-600'
+                        ? 'bg-sage-600 border-sage-600 text-white'
+                        : 'border-warm-muted/40 dark:border-dark-muted/40'
                     }`}>
                       {isSelected && <span className="text-[10px] font-bold">✓</span>}
                     </div>
                   ) : (
                     <div className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors ${
                       isSelected
-                        ? 'border-emerald-600'
-                        : 'border-stone-300 dark:border-stone-600'
+                        ? 'border-sage-600'
+                        : 'border-warm-muted/40 dark:border-dark-muted/40'
                     }`}>
-                      {isSelected && <div className="w-2 h-2 rounded-full bg-emerald-600" />}
+                      {isSelected && <div className="w-2 h-2 rounded-full bg-sage-600" />}
                     </div>
                   )}
                 </div>
@@ -257,13 +257,13 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
       </div>
 
       {/* Floating Bottom Control Dock */}
-      <div className="fixed bottom-0 left-0 right-0 z-30 apple-glass border-t border-black/[0.08] dark:border-white/[0.08] py-3 px-4 sm:px-6">
+      <div className="fixed bottom-0 left-0 right-0 z-30 warm-glass border-t border-warm-border dark:border-dark-border py-3 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto flex items-center justify-between gap-2 sm:gap-4">
           {/* Left: Previous */}
           <button
             onClick={() => onSelectIndex(Math.max(0, currentIndex - 1))}
             disabled={currentIndex === 0}
-            className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-semibold text-xs sm:text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-stone-50 transition-colors spring-press"
+            className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-xl border border-warm-border dark:border-dark-border bg-warm-surface dark:bg-dark-surface text-warm-charcoal dark:text-dark-text font-semibold text-xs sm:text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-warm-surface-hover transition-colors spring-press"
           >
             <ChevronLeft className="w-4 h-4" />
             <span className="hidden sm:inline">Previous</span>
@@ -275,8 +275,8 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
               onClick={handleToggleReview}
               className={`flex items-center gap-1.5 px-3 py-2.5 rounded-xl text-xs font-semibold transition-colors spring-press ${
                 currentResponse.isMarkedForReview
-                  ? 'bg-amber-500 text-white shadow-xs'
-                  : 'bg-stone-100 dark:bg-stone-800 hover:bg-stone-200/70 text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-stone-700'
+                  ? 'bg-amber-600 text-white shadow-xs'
+                  : 'bg-warm-pill dark:bg-dark-pill hover:bg-warm-surface-hover text-warm-charcoal dark:text-dark-text border border-warm-border dark:border-dark-border'
               }`}
             >
               <Flag className={`w-3.5 h-3.5 ${currentResponse.isMarkedForReview ? 'fill-current' : ''}`} />
@@ -289,7 +289,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
             {currentResponse.selectedKeys.length > 0 && (
               <button
                 onClick={handleClearResponse}
-                className="flex items-center gap-1 px-2.5 py-2.5 rounded-xl text-xs font-medium text-stone-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/40 transition-colors"
+                className="flex items-center gap-1 px-2.5 py-2.5 rounded-xl text-xs font-medium text-warm-muted hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/40 transition-colors"
                 title="Clear selection"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -302,7 +302,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
           {currentIndex < questions.length - 1 ? (
             <button
               onClick={() => onSelectIndex(currentIndex + 1)}
-              className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 font-semibold text-xs sm:text-sm hover:opacity-90 transition-opacity spring-press"
+              className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2.5 rounded-xl bg-warm-charcoal dark:bg-dark-pill text-warm-canvas dark:text-dark-text font-semibold text-xs sm:text-sm hover:opacity-90 transition-opacity spring-press"
             >
               <span>Next</span>
               <ChevronRight className="w-4 h-4" />
@@ -310,7 +310,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
           ) : (
             <button
               onClick={() => setIsSubmitModalOpen(true)}
-              className="flex items-center gap-1.5 px-4 sm:px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm transition-all shadow-xs spring-press"
+              className="flex items-center gap-1.5 px-4 sm:px-6 py-2.5 rounded-xl bg-sage-600 hover:bg-sage-700 text-white font-bold text-xs sm:text-sm transition-all shadow-xs spring-press"
             >
               <span>Submit Exam</span>
               <Send className="w-3.5 h-3.5" />
@@ -342,40 +342,40 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
       {/* Submit Confirmation Modal */}
       {isSubmitModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-          <div className="w-full max-w-md bg-white dark:bg-stone-850 rounded-2xl p-6 shadow-2xl border border-black/10 dark:border-white/10 space-y-5">
+          <div className="w-full max-w-md bg-warm-surface dark:bg-dark-surface rounded-2xl p-6 shadow-2xl border border-warm-border dark:border-dark-border space-y-5">
             <div>
-              <h3 className="text-lg font-bold text-stone-900 dark:text-white">
+              <h3 className="font-heading text-lg font-bold text-warm-charcoal dark:text-dark-text">
                 Submit {examTitle}?
               </h3>
-              <p className="text-xs text-stone-500 dark:text-stone-400 mt-1">
+              <p className="text-xs text-warm-muted dark:text-dark-muted mt-1">
                 Please verify your examination status before submitting.
               </p>
             </div>
 
             {/* Summary Grid */}
-            <div className="grid grid-cols-3 gap-2.5 p-3.5 rounded-xl bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-center">
+            <div className="grid grid-cols-3 gap-2.5 p-3.5 rounded-xl bg-warm-pill/60 dark:bg-dark-pill/60 border border-warm-border dark:border-dark-border text-center">
               <div>
-                <span className="block text-xl font-extrabold text-emerald-600 dark:text-emerald-400">
+                <span className="block text-xl font-extrabold text-sage-700 dark:text-sage-300 tabular-nums">
                   {answeredCount}
                 </span>
-                <span className="text-[11px] text-stone-500 font-medium">Answered</span>
+                <span className="text-[11px] text-warm-muted dark:text-dark-muted font-medium">Answered</span>
               </div>
               <div>
-                <span className="block text-xl font-extrabold text-amber-500">
+                <span className="block text-xl font-extrabold text-amber-600 tabular-nums">
                   {reviewCount}
                 </span>
-                <span className="text-[11px] text-stone-500 font-medium">Review</span>
+                <span className="text-[11px] text-warm-muted dark:text-dark-muted font-medium">Review</span>
               </div>
               <div>
-                <span className="block text-xl font-extrabold text-stone-400">
+                <span className="block text-xl font-extrabold text-warm-muted dark:text-dark-muted tabular-nums">
                   {unattemptedCount}
                 </span>
-                <span className="text-[11px] text-stone-500 font-medium">Unanswered</span>
+                <span className="text-[11px] text-warm-muted dark:text-dark-muted font-medium">Unanswered</span>
               </div>
             </div>
 
             {unattemptedCount > 0 && (
-              <div className="p-3 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/40 text-amber-800 dark:text-amber-300 text-xs flex items-start gap-2">
+              <div className="p-3 rounded-xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 text-xs flex items-start gap-2">
                 <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-amber-600 dark:text-amber-400" />
                 <span>
                   You have <strong>{unattemptedCount} unattempted questions</strong>. You can return to the test to answer them.
@@ -386,7 +386,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
             <div className="flex items-center gap-3 pt-2">
               <button
                 onClick={() => setIsSubmitModalOpen(false)}
-                className="flex-1 py-2.5 rounded-xl border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 font-medium text-xs hover:bg-stone-50 dark:hover:bg-stone-800 transition-colors"
+                className="flex-1 py-2.5 rounded-xl border border-warm-border dark:border-dark-border text-warm-charcoal dark:text-dark-text font-medium text-xs hover:bg-warm-surface-hover dark:hover:bg-dark-surface-hover transition-colors"
               >
                 Continue Test
               </button>
@@ -396,7 +396,7 @@ export const ExamSimulationView: React.FC<ExamSimulationViewProps> = ({
                   setIsSubmitModalOpen(false);
                   onSubmitExam();
                 }}
-                className="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-xs transition-colors"
+                className="flex-1 py-2.5 rounded-xl bg-sage-600 hover:bg-sage-700 text-white font-bold text-xs shadow-xs transition-colors"
               >
                 Confirm & Submit
               </button>
