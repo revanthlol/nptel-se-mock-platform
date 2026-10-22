@@ -1,0 +1,5549 @@
+[
+  {
+    "id": "q_0_1",
+    "globalIndex": 1,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 1,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A software process model represents which of the following?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The steps through which software is developed"
+      },
+      {
+        "key": "b",
+        "text": "The artifacts that are produced during software development"
+      },
+      {
+        "key": "c",
+        "text": "How software is used by the different categories of users"
+      },
+      {
+        "key": "d",
+        "text": "How software may fail and the maintenance steps for the same"
+      },
+      {
+        "key": "e",
+        "text": "How can the time and space complexity of the software be improved"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "solution": "A software process model depicts the steps through which software is developed and the artifacts that are produced during software development"
+  },
+  {
+    "id": "q_0_2",
+    "globalIndex": 2,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 2,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following types of testing are conducted during unit testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Black-box testing"
+      },
+      {
+        "key": "b",
+        "text": "Performance testing"
+      },
+      {
+        "key": "c",
+        "text": "White-box testing"
+      },
+      {
+        "key": "d",
+        "text": "GUI testing"
+      },
+      {
+        "key": "e",
+        "text": "Stress testing"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "solution": "Black-box and white-box both perform during unit testing."
+  },
+  {
+    "id": "q_0_3",
+    "globalIndex": 3,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 3,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Which one of the following phases accounts for the maximum effort during a typical software development process?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Coding"
+      },
+      {
+        "key": "b",
+        "text": "Specification"
+      },
+      {
+        "key": "c",
+        "text": "Testing"
+      },
+      {
+        "key": "d",
+        "text": "Designing"
+      },
+      {
+        "key": "e",
+        "text": "Maintenance"
+      }
+    ],
+    "correctAnswers": [
+      "e"
+    ],
+    "solution": "In a typical software development lifecycle, the maintenance phase accounts for the maximum effort and cost."
+  },
+  {
+    "id": "q_0_4",
+    "globalIndex": 4,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 4,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following types of testing are carried out during the testing phase of the waterfall life cycle model?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Unit testing"
+      },
+      {
+        "key": "b",
+        "text": "Integration testing"
+      },
+      {
+        "key": "c",
+        "text": "System testing"
+      },
+      {
+        "key": "d",
+        "text": "Performance testing"
+      },
+      {
+        "key": "e",
+        "text": "White-box testing"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Only b, c, and d are part of the testing phase in the Waterfall model."
+  },
+  {
+    "id": "q_0_5",
+    "globalIndex": 5,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 5,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following techniques are primarily used to handle the complexity in a large software development project?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Abstraction"
+      },
+      {
+        "key": "b",
+        "text": "Decomposition"
+      },
+      {
+        "key": "c",
+        "text": "Testing"
+      },
+      {
+        "key": "d",
+        "text": "Maintenance"
+      },
+      {
+        "key": "e",
+        "text": "Review"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "solution": "In large software development projects, managing complexity is crucial. The two primary techniques used for this purpose are: Abstraction and Decomposition."
+  },
+  {
+    "id": "q_0_6",
+    "globalIndex": 6,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 6,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Defects get introduced into a work product due to mistakes committed by the members of the development team. A mistake in an activity pertaining to which of the following phases is likely to be most expensive to correct when detected during system testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "System testing"
+      },
+      {
+        "key": "b",
+        "text": "Design"
+      },
+      {
+        "key": "c",
+        "text": "Coding and unit testing"
+      },
+      {
+        "key": "d",
+        "text": "Requirements analysis and specification"
+      },
+      {
+        "key": "e",
+        "text": "Maintenance"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "solution": "The correct answer is Requirements analysis and specification."
+  },
+  {
+    "id": "q_0_7",
+    "globalIndex": 7,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 7,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Which one of the following phrases would most appropriately complete the sentence: \u201cDuring the software development life cycle, the later a defect is found, __________ .\u201d",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "the easier it is to find"
+      },
+      {
+        "key": "b",
+        "text": "the more expensive it is to repair"
+      },
+      {
+        "key": "c",
+        "text": "the less important it is to the product"
+      },
+      {
+        "key": "d",
+        "text": "the faster it is possible to fix"
+      },
+      {
+        "key": "e",
+        "text": "the more trivial it is"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "solution": "In the software development life cycle, defect repair cost increases significantly the later it is detected, especially in later phases like system testing or maintenance."
+  },
+  {
+    "id": "q_0_8",
+    "globalIndex": 8,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 8,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "For a typical commercial software product, testing should account for what percentage of the total software development costs?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "5-10"
+      },
+      {
+        "key": "b",
+        "text": "10-20"
+      },
+      {
+        "key": "c",
+        "text": "40-50"
+      },
+      {
+        "key": "d",
+        "text": "80-90"
+      },
+      {
+        "key": "e",
+        "text": "90-100"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "For a typical commercial software product, testing often accounts for 40\u201350% of the total development costs, reflecting its critical role in ensuring quality and reliability."
+  },
+  {
+    "id": "q_0_9",
+    "globalIndex": 9,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 9,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which among the following are software service type of projects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Undertaking maintenance of a legacy software for a certain customer"
+      },
+      {
+        "key": "b",
+        "text": "Development of an off-the-shelf telemedicine software for use in hospitals across the world"
+      },
+      {
+        "key": "c",
+        "text": "Undertaking testing of a large software which has been outsourced by a software development organization"
+      },
+      {
+        "key": "d",
+        "text": "Development of a commercial relational database management system"
+      },
+      {
+        "key": "e",
+        "text": "Development of an embedded safety-critical application"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "solution": "Software service type of projects are those where a company provides services to clients rather than developing generic or commercial products. These typically include activities like maintenance, testing, customization, or support for client-specific needs."
+  },
+  {
+    "id": "q_0_10",
+    "globalIndex": 10,
+    "assignment": 0,
+    "assignmentName": "Assignment 0",
+    "questionNumber": 10,
+    "topic": "Software Process Models, Lifecycle & Basics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following problems would be encountered when a programmer resorts to indiscriminate use of GO TO statements while writing a program?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "It increases the running time of programs It increases memory requirements of programs It results in larger executable code sizes It would make testing the code very difficult It would make debugging difficult"
+      }
+    ],
+    "correctAnswers": [
+      "d",
+      "e"
+    ],
+    "solution": "Indiscriminate use of GO TO statements leads to \"spaghetti code\", which lacks clear structure and flow, making it hard to follow, test, and maintain. ************END***********"
+  },
+  {
+    "id": "q_1_1",
+    "globalIndex": 11,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 1,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are considered major challenges faced in modern software development projects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Software maintenance costs are very high."
+      },
+      {
+        "key": "b",
+        "text": "Projects often exceed their scheduled timelines."
+      },
+      {
+        "key": "c",
+        "text": "Increasing hardware speed completely eliminates software quality issues."
+      },
+      {
+        "key": "d",
+        "text": "Users expect software systems to be reliable and user-friendly."
+      },
+      {
+        "key": "e",
+        "text": "Software systems are becoming increasingly large and complex."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "The major challenges in modern software development include high maintenance costs, schedule overruns, growing user expectations for reliability and usability, and increasing system size and complexity\u2014all of which make projects harder to manage and deliver. However, faster hardware does not eliminate software quality issues, as poor design, bugs, and security flaws remain independent of processing power."
+  },
+  {
+    "id": "q_1_2",
+    "globalIndex": 12,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 2,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are characteristics of structured programming?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A program is divided into smaller modules or functions"
+      },
+      {
+        "key": "b",
+        "text": "The use of excessive GOTO statements is encouraged"
+      },
+      {
+        "key": "c",
+        "text": "Control structures such as sequence, selection, and iteration are used"
+      },
+      {
+        "key": "d",
+        "text": "Proper indentation improves program readability"
+      },
+      {
+        "key": "e",
+        "text": "Structured programming discourages code documentation"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "solution": "Structured programming promotes modularity (dividing programs into functions), uses disciplined control structures like sequence, selection, and iteration, and encourages proper indentation for readability\u2014all of which improve clarity and maintainability. It explicitly discourages excessive GOTO statements and does not discourage documentation; in fact, clear documentation is often encouraged alongside self-explanatory code."
+  },
+  {
+    "id": "q_1_3",
+    "globalIndex": 13,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 3,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements support the idea that \u201cThe more a software product is maintained, the less maintainable it becomes\u201d?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Frequent changes can increase software complexity"
+      },
+      {
+        "key": "b",
+        "text": "Poorly documented modifications reduce code understandability"
+      },
+      {
+        "key": "c",
+        "text": "Continuous maintenance always improves software structure"
+      },
+      {
+        "key": "d",
+        "text": "Repeated patches may introduce inconsistencies in design"
+      },
+      {
+        "key": "e",
+        "text": "Lack of proper refactoring during maintenance can degrade code quality"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Frequent changes, poor documentation, repeated patches, and lack of refactoring gradually degrade a software system's structure, making it harder to understand and modify over time\u2014 this is known as software entropy. The statement that continuous maintenance always improves structure is false, because without deliberate effort, maintenance often introduces new flaws and inconsistencies."
+  },
+  {
+    "id": "q_1_4",
+    "globalIndex": 14,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 4,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are generally categorized as software service projects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Software maintenance"
+      },
+      {
+        "key": "b",
+        "text": "Development of a commercial off-the-shelf software product"
+      },
+      {
+        "key": "c",
+        "text": "Software customization for a client"
+      },
+      {
+        "key": "d",
+        "text": "Outsourced software development"
+      },
+      {
+        "key": "e",
+        "text": "Software testing and support services"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "solution": "Software service projects involve providing ongoing support, custom solutions, or contract-based work for specific clients, such as maintenance, customization, outsourced development, and testing services. In contrast, developing a commercial off-the-shelf (COTS) product is a productdevelopment effort, not a service project, as it is built for mass sale rather than for a particular client."
+  },
+  {
+    "id": "q_1_5",
+    "globalIndex": 15,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 5,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the distinction between jobs, projects, and exploration activities, which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Jobs usually involve repetitive and well-understood tasks"
+      },
+      {
+        "key": "b",
+        "text": "Exploration activities generally have a high degree of uncertainty in outcomes"
+      },
+      {
+        "key": "c",
+        "text": "Projects typically contain both routine activities and challenging tasks"
+      },
+      {
+        "key": "d",
+        "text": "Projects always have completely predictable outcomes"
+      },
+      {
+        "key": "e",
+        "text": "Exploration activity may encompass searching for new scientific discoveries"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Jobs are routine and well-understood, exploration involves high uncertainty (e.g., scientific discovery), and projects mix routine work with novel challenges\u2014but they never guarantee completely predictable outcomes. Therefore, the claim that projects always have predictable results is false, while the others accurately describe these activity types."
+  },
+  {
+    "id": "q_1_6",
+    "globalIndex": 16,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 6,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding types of software are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Packaged software is prewritten software available for purchase"
+      },
+      {
+        "key": "b",
+        "text": "Custom software is usually developed according to specific user requirements"
+      },
+      {
+        "key": "c",
+        "text": "Horizontal market software is designed to satisfy the needs of many companies"
+      },
+      {
+        "key": "d",
+        "text": "Vertical market software is intended for a particular industry domain"
+      },
+      {
+        "key": "e",
+        "text": "Packaged software is always developed for only one specific customer"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Packaged software is prewritten for mass purchase, custom software is built for specific user needs, horizontal software serves many companies (e.g., payroll), and vertical software targets a specific industry (e.g., hospital management). However, packaged software is not developed for just one customer\u2014that describes custom software, making option e incorrect."
+  },
+  {
+    "id": "q_1_7",
+    "globalIndex": 17,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 7,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Why should software developers focus on writing readable and well-structured code?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Readable code makes debugging easier"
+      },
+      {
+        "key": "b",
+        "text": "Readable code helps other developers understand the program more easily"
+      },
+      {
+        "key": "c",
+        "text": "Readable code always guarantees minimum memory usage"
+      },
+      {
+        "key": "d",
+        "text": "Readable code simplifies software maintenance and modification"
+      },
+      {
+        "key": "e",
+        "text": "Readable code facilitates effective testing of the software"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Readable code improves debugging, collaboration, maintenance, and testing by making the program's logic clear and easy to follow. However, it does not guarantee minimum memory usage\u2014that depends on algorithmic and data-structure choices, not readability alone."
+  },
+  {
+    "id": "q_1_8",
+    "globalIndex": 18,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 8,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following projects can be classified as software service-type projects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Providing long-term support and maintenance for a hospital management system"
+      },
+      {
+        "key": "b",
+        "text": "Customizing an existing payroll software package for a specific company"
+      },
+      {
+        "key": "c",
+        "text": "Developing a banking application for a particular client organization"
+      },
+      {
+        "key": "d",
+        "text": "Developing a generic photo-editing software product for worldwide commercial sale"
+      },
+      {
+        "key": "e",
+        "text": "Migrating and integrating legacy software systems for a client"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Service-type projects involve providing support, customization, or bespoke development for specific clients\u2014such as maintenance, customizing payroll, building a banking application for one client, or migrating legacy systems. Developing a generic photo-editing product for worldwide sale is a product-development effort (COTS), not a service project."
+  },
+  {
+    "id": "q_1_9",
+    "globalIndex": 19,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 9,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following issues are commonly associated with the build-and-fix model of software development?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Coding begins without complete requirement analysis"
+      },
+      {
+        "key": "b",
+        "text": "Little effort is made toward proper software design"
+      },
+      {
+        "key": "c",
+        "text": "Code is systematically documented during development"
+      },
+      {
+        "key": "d",
+        "text": "The model guarantees highly maintainable software"
+      },
+      {
+        "key": "e",
+        "text": "Testing is usually unsystematic and performed late"
+      },
+      {
+        "key": "f",
+        "text": "The resulting software may suffer from poor quality and maintainability"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "e",
+      "f"
+    ],
+    "solution": "The build-and-fix model starts coding without proper analysis or design, uses unsystematic testing done late, and typically produces low-quality, hard-to-maintain software. It does not encourage systematic documentation and certainly does not guarantee maintainability."
+  },
+  {
+    "id": "q_1_10",
+    "globalIndex": 20,
+    "assignment": 1,
+    "assignmentName": "Assignment 1",
+    "questionNumber": 10,
+    "topic": "Software Engineering Challenges & Structured Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following situations illustrate the use of the principle of abstraction in software development?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Representing the logic of a program using pseudocode before implementation"
+      },
+      {
+        "key": "b",
+        "text": "Dividing a large software system into smaller modules"
+      },
+      {
+        "key": "c",
+        "text": "Designing control flow structure before writing code"
+      },
+      {
+        "key": "d",
+        "text": "Ignoring unnecessary implementation details during system design"
+      },
+      {
+        "key": "e",
+        "text": "Testing whether a program produces correct outputs for various inputs"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "solution": "Abstraction means focusing on essential ideas while hiding irrelevant details\u2014using pseudocode, designing control flow at a high level, and ignoring implementation specifics during design all exemplify this. Testing outputs (option e) is about validation, not abstraction, and dividing into modules (option b) is decomposition, though closely related. ******THE END******"
+  },
+  {
+    "id": "q_2_1",
+    "globalIndex": 21,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 1,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding milestones in a software life cycle model are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Milestones help project managers track the progress of a software project"
+      },
+      {
+        "key": "b",
+        "text": "Entry into and exit from a development phase are considered important milestones"
+      },
+      {
+        "key": "c",
+        "text": "Absence of proper milestones always results in poor software quality"
+      },
+      {
+        "key": "d",
+        "text": "Milestones help in monitoring and controlling project activities"
+      },
+      {
+        "key": "e",
+        "text": "Milestones eliminate the need for project documentation and reviews"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Milestones serve as measurable checkpoints that help project managers track progress, monitor activities, and mark phase transitions (entry/exit). However, their absence does not always lead to poor quality, and they do not eliminate the need for documentation and reviews\u2014those remain essential regardless of milestones."
+  },
+  {
+    "id": "q_2_2",
+    "globalIndex": 22,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 2,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A student while working on a software project, is suffering from the \u201c99% complete syndrome. Which of the following situations are likely indicators of this syndrome?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The student repeatedly claims the project is almost finished, but important tasks still remain incomplete."
+      },
+      {
+        "key": "b",
+        "text": "Most modules are coded, but testing and debugging have not been properly completed."
+      },
+      {
+        "key": "c",
+        "text": "The student accurately estimates the remaining work and delivers the project on time."
+      },
+      {
+        "key": "d",
+        "text": "Documentation, integration, and validation activities are postponed until the end."
+      },
+      {
+        "key": "e",
+        "text": "The project progress appears high on paper, but the final deliverable is not ready for deployment."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "The \"99% complete syndrome\" is marked by repeated claims of near-completion while critical tasks like testing, debugging, integration, and documentation remain unfinished\u2014progress looks high on paper but the software is not deployable. Accurate estimation and on-time delivery (option c) are the opposite of this syndrome, so they are not indicators."
+  },
+  {
+    "id": "q_2_3",
+    "globalIndex": 23,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 3,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are important factors to be assessed to determine the technical feasibility of a software project?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Availability of required hardware and software resources"
+      },
+      {
+        "key": "b",
+        "text": "Technical expertise of the development team"
+      },
+      {
+        "key": "c",
+        "text": "Compatibility with existing systems"
+      },
+      {
+        "key": "d",
+        "text": "Expected profit from the software product"
+      },
+      {
+        "key": "e",
+        "text": "Ability of the technology to handle expected system performance requirements"
+      },
+      {
+        "key": "f",
+        "text": "Estimated market demand for the product"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Technical feasibility assesses whether the project can be built with available resources, team expertise, system compatibility, and performance capabilities\u2014all technical concerns. Expected profit (d) and market demand (f) relate to economic and market feasibility, not technical feasibility."
+  },
+  {
+    "id": "q_2_4",
+    "globalIndex": 24,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 4,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about the Classical Waterfall Model are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The development process progresses through a sequence of distinct phases."
+      },
+      {
+        "key": "b",
+        "text": "Requirements are expected to be completely specified before development begins."
+      },
+      {
+        "key": "c",
+        "text": "The model supports frequent backtracking between all phases during normal execution."
+      },
+      {
+        "key": "d",
+        "text": "Testing is generally performed after the coding phase is completed."
+      },
+      {
+        "key": "e",
+        "text": "The Waterfall Model emphasizes continuous customer feedback throughout development."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "The Classical Waterfall Model follows a linear, sequential progression through distinct phases, with complete requirements specified upfront and testing performed after coding. It does not support frequent backtracking (c) nor emphasize continuous customer feedback (e)\u2014those are characteristics of iterative or Agile models."
+  },
+  {
+    "id": "q_2_5",
+    "globalIndex": 25,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 5,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding software maintenance are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Corrective maintenance involves fixing errors that were not detected during software development."
+      },
+      {
+        "key": "b",
+        "text": "Corrective maintenance aims at addressing system defects."
+      },
+      {
+        "key": "c",
+        "text": "Adaptive maintenance is performed to port software to a new environment or platform."
+      },
+      {
+        "key": "d",
+        "text": "Corrective maintenance mainly focuses on adding new features requested by users."
+      },
+      {
+        "key": "e",
+        "text": "Adaptive maintenance may be required when migrating software to a new operating system."
+      },
+      {
+        "key": "f",
+        "text": "Perfective maintenance can improve the efficiency and implementation of a system."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "f"
+    ],
+    "solution": "Corrective maintenance fixes bugs/defects (options a and b), adaptive maintenance handles environment changes like new OS or platforms (c and e), and perfective maintenance improves efficiency or implementation (f). Adding new features (d) is actually perfective maintenance, not corrective, so option d is incorrect."
+  },
+  {
+    "id": "q_2_6",
+    "globalIndex": 26,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 6,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding phase containment of errors in software engineering are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Errors should ideally be detected and corrected in the same phase in which they are introduced."
+      },
+      {
+        "key": "b",
+        "text": "The cost of correcting an error generally increases if it is detected in later phases of development."
+      },
+      {
+        "key": "c",
+        "text": "Phase containment of errors helps reduce software development and maintenance costs."
+      },
+      {
+        "key": "d",
+        "text": "Errors introduced during requirements analysis are easiest to fix after system deployment."
+      },
+      {
+        "key": "e",
+        "text": "Testing is the only phase in which software errors can be detected."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solution": "Phase containment emphasizes detecting and fixing errors in the same phase they are introduced, which reduces costly rework\u2014fixing errors later (especially after deployment) is far more expensive. Errors can be detected through reviews and inspections in any phase, not just testing (e), and requirements errors are hardest to fix after deployment, not easiest (d)."
+  },
+  {
+    "id": "q_2_7",
+    "globalIndex": 27,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 7,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are commonly cited limitations of the classical waterfall model in modern software development projects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Difficulty in accommodating changing requirements after development begins"
+      },
+      {
+        "key": "b",
+        "text": "Requirement for a complete and stable requirements specification at an early stage"
+      },
+      {
+        "key": "c",
+        "text": "Delayed delivery of working software until the end of the project"
+      },
+      {
+        "key": "d",
+        "text": "Continuous customer feedback available throughout all development phases"
+      },
+      {
+        "key": "e",
+        "text": "Limited flexibility in handling evolving user needs"
+      },
+      {
+        "key": "f",
+        "text": "Frequent incremental releases delivered during development"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "The classical waterfall model struggles with changing requirements, requires fully stable specifications upfront, delivers working software only at the end, and offers little flexibility for evolving user needs\u2014these are its key limitations. Continuous customer feedback (d) and frequent incremental releases (f) are not features of waterfall; they describe iterative/Agile models."
+  },
+  {
+    "id": "q_2_8",
+    "globalIndex": 28,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 8,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about the V-model of software development are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The V-model emphasizes verification and validation activities."
+      },
+      {
+        "key": "b",
+        "text": "Each development phase is associated with a corresponding testing phase."
+      },
+      {
+        "key": "c",
+        "text": "Coding is performed before system design begins."
+      },
+      {
+        "key": "d",
+        "text": "Test planning begins early in the development life cycle."
+      },
+      {
+        "key": "e",
+        "text": "The V-model is well-suited for projects with stable and clearly defined requirements."
+      },
+      {
+        "key": "f",
+        "text": "The V-model completely eliminates the need for software testing."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "The V-model emphasizes verification and validation, pairs each development phase with a corresponding testing phase, starts test planning early, and is well-suited for projects with stable, clearly defined requirements. However, coding is performed after system design (not before), and the model does not eliminate testing\u2014it actually stresses its importance."
+  },
+  {
+    "id": "q_2_9",
+    "globalIndex": 29,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 9,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "The prototyping software development model is most suitable for projects facing which of the following situations?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirements are unclear or likely to change frequently"
+      },
+      {
+        "key": "b",
+        "text": "Users are unable to clearly specify their expectations at the beginning"
+      },
+      {
+        "key": "c",
+        "text": "Early user feedback is required to refine the system requirements"
+      },
+      {
+        "key": "d",
+        "text": "The project requirements are completely stable and well defined"
+      },
+      {
+        "key": "e",
+        "text": "Developers need to quickly demonstrate a working model of the system"
+      },
+      {
+        "key": "f",
+        "text": "The project mainly focuses on minimizing hardware manufacturing costs"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "The prototyping model is ideal when requirements are unclear, users cannot specify expectations upfront, early feedback is needed to refine requirements, or a working model must be demonstrated quickly. It is not suitable for stable, well-defined requirements (d), and it addresses software uncertainty, not hardware cost minimization (f)."
+  },
+  {
+    "id": "q_2_10",
+    "globalIndex": 30,
+    "assignment": 2,
+    "assignmentName": "Assignment 2",
+    "questionNumber": 10,
+    "topic": "Requirements Engineering, Feasibility & SRS",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following can be considered as project milestones in a software life cycle?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirements specification approved"
+      },
+      {
+        "key": "b",
+        "text": "Coding standards defined"
+      },
+      {
+        "key": "c",
+        "text": "System design completed"
+      },
+      {
+        "key": "d",
+        "text": "Use of modular programming"
+      },
+      {
+        "key": "e",
+        "text": "User acceptance testing completed"
+      },
+      {
+        "key": "f",
+        "text": "Final software delivery completed"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e",
+      "f"
+    ],
+    "solution": "Project milestones are significant, measurable events like approval of requirements, completion of system design, user acceptance testing, and final delivery\u2014these mark major progress points. Defining coding standards (b) and using modular programming (d) are development practices or guidelines, not major project milestones. ******THE END******"
+  },
+  {
+    "id": "q_3_1",
+    "globalIndex": 31,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 1,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding the Agile software development model?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one increment is typically planned and developed at a time"
+      },
+      {
+        "key": "b",
+        "text": "Long-term detailed plans are usually avoided"
+      },
+      {
+        "key": "c",
+        "text": "Every iteration must add major new functionality"
+      },
+      {
+        "key": "d",
+        "text": "A new software release is generally produced at the end of each iteration"
+      },
+      {
+        "key": "e",
+        "text": "Each release may be delivered to the customer for regular use"
+      },
+      {
+        "key": "f",
+        "text": "Agile development requires completion of the entire system before deployment"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Agile focuses on planning and developing one increment at a time, avoids long-term detailed plans, produces a release at the end of each iteration, and encourages delivering releases to customers for regular feedback. It does not require every iteration to add major functionality (c), nor does it require the entire system to be completed before deployment (f)\u2014that is the opposite of Agile."
+  },
+  {
+    "id": "q_3_2",
+    "globalIndex": 32,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 2,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "A software company has recently developed an online shopping application for a retail store. The company has now been assigned a project to develop a similar application for a supermarket chain, with different billing rules and additional loyalty features. Which of the following software life cycle models would be most appropriate for this project?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Classical waterfall model"
+      },
+      {
+        "key": "b",
+        "text": "Prototyping model"
+      },
+      {
+        "key": "c",
+        "text": "Scrum"
+      },
+      {
+        "key": "d",
+        "text": "V model"
+      },
+      {
+        "key": "e",
+        "text": "Spiral model"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "Scrum is most appropriate because the team already has a working baseline (the retail app) and can iteratively add/modify billing rules and loyalty features in short sprints, adapting to evolving requirements with frequent feedback. Waterfall, V-model, and pure prototyping are less flexible, and while Spiral is risk-driven, it is heavier and less practical than Scrum for this commercial adaptation project."
+  },
+  {
+    "id": "q_3_3",
+    "globalIndex": 33,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 3,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Agile software development emphasizes which of the following principles?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Deliver working software quickly in small increments with adequate quality"
+      },
+      {
+        "key": "b",
+        "text": "Complete all documentation before starting implementation"
+      },
+      {
+        "key": "c",
+        "text": "Frequent customer feedback and continuous improvement"
+      },
+      {
+        "key": "d",
+        "text": "Deliver only fully completed systems at the end of the project"
+      },
+      {
+        "key": "e",
+        "text": "Respond effectively to changing requirements during development"
+      },
+      {
+        "key": "f",
+        "text": "Focus mainly on producing non-executable project documents rather than working software"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "solution": "Frequent changes, poor documentation, repeated patches, and lack of refactoring gradually degrade a software system's structure, making it harder to understand and modify over time\u2014 this is known as software entropy. The statement that continuous maintenance always improves structure is false, because without deliberate effort, maintenance often introduces new flaws and inconsistencies."
+  },
+  {
+    "id": "q_3_4",
+    "globalIndex": 34,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 4,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following questions are typically discussed during a daily Scrum meeting?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "What work did you complete since the last meeting?"
+      },
+      {
+        "key": "b",
+        "text": "What work will you complete before the next meeting?"
+      },
+      {
+        "key": "c",
+        "text": "What impediments are affecting your progress?"
+      },
+      {
+        "key": "d",
+        "text": "Who should be removed from the Scrum team?"
+      },
+      {
+        "key": "e",
+        "text": "What percentage of the project budget has been consumed?"
+      },
+      {
+        "key": "f",
+        "text": "What tasks are currently in progress?"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "f"
+    ],
+    "solution": "The Daily Scrum (stand-up) focuses on synchronizing the team by discussing work completed since the last meeting, work planned before the next meeting, impediments blocking progress, and tasks currently in progress. It is not a forum for team member evaluation (d) or budget tracking (e)\u2014those are management concerns outside the daily stand-up."
+  },
+  {
+    "id": "q_3_5",
+    "globalIndex": 35,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 5,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding Scrum?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Scrum promotes iterative and incremental software development"
+      },
+      {
+        "key": "b",
+        "text": "A Scrum team organizes and manages its own work"
+      },
+      {
+        "key": "c",
+        "text": "Scrum requires all requirements to be frozen before development begins"
+      },
+      {
+        "key": "d",
+        "text": "Sprints are usually time-boxed iterations"
+      },
+      {
+        "key": "e",
+        "text": "The Scrum Master is responsible for writing all program code"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Scrum promotes iterative, incremental development with self-organizing teams and time-boxed sprints. It does not freeze requirements upfront (c)\u2014it embraces change\u2014and the Scrum Master is a facilitator, not the sole coder (e); the Development Team writes the code."
+  },
+  {
+    "id": "q_3_6",
+    "globalIndex": 36,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 6,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding the sprint backlog in a Scrum project?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It contains the tasks selected for the current sprint"
+      },
+      {
+        "key": "b",
+        "text": "It is owned and managed by the development team"
+      },
+      {
+        "key": "c",
+        "text": "It contains all desired work items for the entire project"
+      },
+      {
+        "key": "d",
+        "text": "It is updated throughout the sprint as work progresses"
+      },
+      {
+        "key": "e",
+        "text": "It is prepared and controlled exclusively by the Scrum Master"
+      },
+      {
+        "key": "f",
+        "text": "It mainly consists of detailed task-level work items"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "f"
+    ],
+    "solution": "The Sprint Backlog contains tasks selected for the current sprint, is owned and managed by the Development Team, is updated daily as work progresses, and consists of detailed tasklevel work items. It does not contain all work items for the entire project (that\u2019s the Product Backlog), and it is not controlled exclusively by the Scrum Master\u2014the team owns it."
+  },
+  {
+    "id": "q_3_7",
+    "globalIndex": 37,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 7,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding Extreme Programming (XP)?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "XP emphasizes Test-Driven Development (TDD)"
+      },
+      {
+        "key": "b",
+        "text": "Test cases are often developed based on user stories"
+      },
+      {
+        "key": "c",
+        "text": "XP encourages implementing features quickly and obtaining customer feedback"
+      },
+      {
+        "key": "d",
+        "text": "Refactoring is discouraged once the code is working"
+      },
+      {
+        "key": "e",
+        "text": "Customer feedback may lead to modification of implemented features"
+      },
+      {
+        "key": "f",
+        "text": "XP requires completing all features before any customer review takes place"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "XP emphasizes TDD, derives tests from user stories, encourages rapid implementation with frequent customer feedback, and allows feedback to modify features. It encourages continuous refactoring (not discourages it), and customer reviews happen throughout, not after all features are complete."
+  },
+  {
+    "id": "q_3_8",
+    "globalIndex": 38,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 8,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following practices are commonly associated with Extreme Programming (XP)?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Frequent release of small software increments"
+      },
+      {
+        "key": "b",
+        "text": "Continuous customer involvement and feedback"
+      },
+      {
+        "key": "c",
+        "text": "Pair programming as a development practice"
+      },
+      {
+        "key": "d",
+        "text": "Avoiding code refactoring after implementation"
+      },
+      {
+        "key": "e",
+        "text": "Writing automated tests before or along with code"
+      },
+      {
+        "key": "f",
+        "text": "Freezing requirements at the beginning of the project"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "XP practices include frequent small releases, continuous customer involvement, pair programming, and writing automated tests before or alongside code (TDD). It encourages continuous refactoring (not avoiding it) and embraces changing requirements (not freezing them upfront)."
+  },
+  {
+    "id": "q_3_9",
+    "globalIndex": 39,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 9,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding roles in a Scrum project?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The Product Owner represents customer interests"
+      },
+      {
+        "key": "b",
+        "text": "The Development Team is usually cross-functional"
+      },
+      {
+        "key": "c",
+        "text": "The Scrum Master helps remove impediments faced by the team"
+      },
+      {
+        "key": "d",
+        "text": "The Scrum Master is solely responsible for coding the product"
+      },
+      {
+        "key": "e",
+        "text": "The Development Team typically consists of a small number of members"
+      },
+      {
+        "key": "f",
+        "text": "The Product Owner mainly acts as an external auditor of the project"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "The Product Owner represents customer interests, the Development Team is cross-functional and small (typically 3\u20139 members), and the Scrum Master removes impediments. The Scrum Master is not solely responsible for coding (the team codes), and the Product Owner is deeply involved, not an external auditor."
+  },
+  {
+    "id": "q_3_10",
+    "globalIndex": 40,
+    "assignment": 3,
+    "assignmentName": "Assignment 3",
+    "questionNumber": 10,
+    "topic": "Agile Development, Scrum & Extreme Programming",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding the product backlog in Scrum?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It contains all desired work items for the project"
+      },
+      {
+        "key": "b",
+        "text": "The product backlog may contain both story-based and task-based work items"
+      },
+      {
+        "key": "c",
+        "text": "The Product Owner is responsible for prioritizing the backlog"
+      },
+      {
+        "key": "d",
+        "text": "The sprint backlog and product backlog are always identical"
+      },
+      {
+        "key": "e",
+        "text": "The product backlog is updated as project needs evolve"
+      },
+      {
+        "key": "f",
+        "text": "Only completed work items are stored in the product backlog"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "The Product Backlog contains all desired work items (features, bugs, technical tasks), may include stories and tasks, is prioritized by the Product Owner, and is continuously updated as needs evolve. It is not identical to the Sprint Backlog (which is a subset for the current sprint), and it stores incomplete work\u2014completed items are removed or marked done. ******THE END******"
+  },
+  {
+    "id": "q_4_1",
+    "globalIndex": 41,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 1,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are desirable properties of a good Software Requirements Specification (SRS) document?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It should be concise but not ambiguous."
+      },
+      {
+        "key": "b",
+        "text": "It should specify how the system will be implemented."
+      },
+      {
+        "key": "c",
+        "text": "It should clearly state what the system must do."
+      },
+      {
+        "key": "d",
+        "text": "It should be easy to modify and well-structured."
+      },
+      {
+        "key": "e",
+        "text": "It should be consistent and complete."
+      },
+      {
+        "key": "f",
+        "text": "It should contain contradictory requirements for flexibility."
+      },
+      {
+        "key": "g",
+        "text": "Which of the following are the focus of the requirements analysis activity?"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "solution": "A good SRS must be concise yet unambiguous, clearly state what the system must do (not how), be easy to modify, well-structured, consistent, and complete. It should not specify implementation details (b) or contain contradictory requirements (f)\u2014those are undesirable."
+  },
+  {
+    "id": "q_4_2",
+    "globalIndex": 42,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 2,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are examples of nonfunctional requirements in an MIS software system?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The maintenance costs per year should be low"
+      },
+      {
+        "key": "b",
+        "text": "The system should be easily portable to other computing environments"
+      },
+      {
+        "key": "c",
+        "text": "System should be able to complete the generation of the payroll report within a minute"
+      },
+      {
+        "key": "d",
+        "text": "The system should be secure"
+      },
+      {
+        "key": "e",
+        "text": "System should take care of the approved leave details of an employee while generating the payroll report"
+      },
+      {
+        "key": "f",
+        "text": "Generating monthly payroll reports"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Nonfunctional requirements specify quality attributes or constraints\u2014low maintenance cost (a), portability (b), performance (c), and security (d) are all nonfunctional. Options (e) and (f) describe specific system functions (integrating leave details, generating reports), which are functional requirements."
+  },
+  {
+    "id": "q_4_3",
+    "globalIndex": 43,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 3,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are sections/subsections are not commonly included in an SRS document as per the IEEE 830-1998 Software Requirements Specification (SRS) standard?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Purpose"
+      },
+      {
+        "key": "b",
+        "text": "Scope"
+      },
+      {
+        "key": "c",
+        "text": "Coding Standards"
+      },
+      {
+        "key": "d",
+        "text": "Specific functional requirements"
+      },
+      {
+        "key": "e",
+        "text": "Specific nonfunctional requirements"
+      },
+      {
+        "key": "f",
+        "text": "Source Code Listings"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "f"
+    ],
+    "solution": "The IEEE 830-1998 SRS standard includes sections like Purpose, Scope, Specific Functional Requirements, and Specific Nonfunctional Requirements\u2014but not Coding Standards or Source Code Listings, which belong to implementation and project documentation, not to requirements specification."
+  },
+  {
+    "id": "q_4_4",
+    "globalIndex": 44,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 4,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following characteristics may indicate a poorly written SRS document?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Use of customer\u2019s terminology to describe functionalities"
+      },
+      {
+        "key": "b",
+        "text": "Inclusion of unquantifiable terms such as \u201cgood user interface\u201d"
+      },
+      {
+        "key": "c",
+        "text": "Use of forward references where concepts are defined later in the text"
+      },
+      {
+        "key": "d",
+        "text": "Clearly measurable and testable requirements"
+      },
+      {
+        "key": "e",
+        "text": "Wishful thinking about features for which realistic solutions are difficult"
+      },
+      {
+        "key": "f",
+        "text": "Consistent and well-structured requirements"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "A poorly written SRS contains subjective/unquantifiable terms like \"good user interface\" (b), forward references to concepts defined later (c), and wishful thinking about unrealistic features (e). Using customer terminology (a), having measurable/testable requirements (d), and being consistent/well-structured (f) are signs of a good SRS."
+  },
+  {
+    "id": "q_4_5",
+    "globalIndex": 45,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 5,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider the following requirement for an online banking system: \"The system should allow customers to transfer funds between accounts.\" Which of the following correctly classify this requirement?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "Non-functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "Requirement describing a service provided by the system"
+      },
+      {
+        "key": "d",
+        "text": "Constraint on implementation"
+      },
+      {
+        "key": "e",
+        "text": "User interface requirement"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "solution": "The requirement describes a specific function (transferring funds) and a service the system provides to users, making it a functional requirement. It is not a non-functional requirement (quality attribute), implementation constraint, or UI-specific requirement, as it does not specify how the interface should look or how the system must be built."
+  },
+  {
+    "id": "q_4_6",
+    "globalIndex": 46,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 6,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider the following requirement for an e-commerce software system: \"The application must run on the Linux operating system.\" It can be considered to be which of the following types of requirements?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "Non-functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "Design constraint"
+      },
+      {
+        "key": "d",
+        "text": "Reliability requirement"
+      },
+      {
+        "key": "e",
+        "text": "External interface requirement"
+      },
+      {
+        "key": "f",
+        "text": "Requirement specifying a business rule"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c"
+    ],
+    "solution": "The requirement specifies a constraint on the operating environment (\"must run on Linux\"), which is a non-functional requirement and specifically a design constraint\u2014it restricts design/implementation choices. It is not a functional requirement (it describes no specific behavior), reliability requirement (no uptime/MTBF specified), external interface (no API/hardware interaction), or business rule (no policy/logic)."
+  },
+  {
+    "id": "q_4_7",
+    "globalIndex": 47,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 7,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding SRS review are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "SRS review is carried out by developers along with user representatives."
+      },
+      {
+        "key": "b",
+        "text": "The purpose of SRS review is to verify that the SRS conforms to actual user requirements."
+      },
+      {
+        "key": "c",
+        "text": "SRS review helps detect defects early and correct them."
+      },
+      {
+        "key": "d",
+        "text": "SRS review is usually performed using checklists."
+      },
+      {
+        "key": "e",
+        "text": "SRS review is mainly intended to generate source code automatically."
+      },
+      {
+        "key": "f",
+        "text": "SRS review is performed only after software implementation is completed."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "SRS review involves developers and user representatives to verify that the document matches actual user needs, detects defects early, and often uses checklists for systematic checking. It is not for generating code (e), and it is performed before implementation (f)\u2014early defect detection is the whole point."
+  },
+  {
+    "id": "q_4_8",
+    "globalIndex": 48,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 8,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following issues are typically addressed during the requirements analysis activity in software development?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Inconsistency in requirements"
+      },
+      {
+        "key": "b",
+        "text": "Use of layered design during implementation"
+      },
+      {
+        "key": "c",
+        "text": "Incompleteness of requirements"
+      },
+      {
+        "key": "d",
+        "text": "Lack of modular coding standards"
+      },
+      {
+        "key": "e",
+        "text": "Unstructuredness in requirements"
+      },
+      {
+        "key": "f",
+        "text": "Redundancy and unnecessary details in requirements"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e",
+      "f"
+    ],
+    "solution": "Requirements analysis focuses on refining and validating requirements\u2014resolving inconsistencies, filling gaps, removing redundancies, and structuring them clearly. It does not address design decisions like layered design (b) or coding standards (d)\u2014those belong to design and implementation phases."
+  },
+  {
+    "id": "q_4_9",
+    "globalIndex": 49,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 9,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider the following partial requirement for a hospital management software system: \"The system shall authenticate users using biometric credentials during login.\" It can be considered to be which of the following types of requirements?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "Non-functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "Security requirement"
+      },
+      {
+        "key": "d",
+        "text": "External interface requirement"
+      },
+      {
+        "key": "e",
+        "text": "Performance requirement"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c"
+    ],
+    "solution": "Biometric authentication is a security requirement (a quality attribute under non-functional), and thus also a non-functional requirement (since security is a quality attribute). It is not an external interface requirement (no API/hardware protocol specified) nor a performance requirement (no speed/throughput metric given)."
+  },
+  {
+    "id": "q_4_10",
+    "globalIndex": 50,
+    "assignment": 4,
+    "assignmentName": "Assignment 4",
+    "questionNumber": 10,
+    "topic": "Software Estimation, COCOMO & Metrics",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following questions are commonly included in an SRS review checklist?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Have response times been specified for system functions?"
+      },
+      {
+        "key": "b",
+        "text": "Have all hardware, external software, and data interfaces been defined?"
+      },
+      {
+        "key": "c",
+        "text": "Is each requirement testable?"
+      },
+      {
+        "key": "d",
+        "text": "Have the dependencies among modules clearly defined?"
+      },
+      {
+        "key": "e",
+        "text": "Are responses to exceptional conditions specified?"
+      },
+      {
+        "key": "f",
+        "text": "Has the programming language for implementation been finalized?"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "An SRS review checklist verifies that performance (response times), interfaces, testability, and exceptional-condition responses are properly specified\u2014all essential for a complete, unambiguous requirements document. It does not include module dependencies (d) or programming language (f), as those belong to design and implementation decisions, not to the SRS itself. ******THE END******"
+  },
+  {
+    "id": "q_5_1",
+    "globalIndex": 51,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 1,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about modularity in software design are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Modularity involves decomposing a problem into a set of modules."
+      },
+      {
+        "key": "b",
+        "text": "Modules in a modular design are intended to be largely independent of one another."
+      },
+      {
+        "key": "c",
+        "text": "Modularity is based on the divide and conquer principle."
+      },
+      {
+        "key": "d",
+        "text": "Modularity always increases interdependence among modules."
+      },
+      {
+        "key": "e",
+        "text": "Modularity is considered an important attribute of good software design."
+      },
+      {
+        "key": "f",
+        "text": "Modularity eliminates the need for system integration."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Modularity decomposes a problem into modules, promotes independence (low coupling), and applies the divide-and-conquer principle\u2014all hallmarks of good design. It does not increase interdependence (d)\u2014it reduces it\u2014and it does not eliminate system integration (f); integration is still needed, though it becomes easier."
+  },
+  {
+    "id": "q_5_2",
+    "globalIndex": 52,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 2,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding coupling are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Coupling refers to the degree of dependence among software components."
+      },
+      {
+        "key": "b",
+        "text": "Highly coupled systems have many interdependencies among components."
+      },
+      {
+        "key": "c",
+        "text": "High coupling is generally preferred in good software design."
+      },
+      {
+        "key": "d",
+        "text": "In highly coupled systems, modifying one component may affect several other components."
+      },
+      {
+        "key": "e",
+        "text": "Coupling and modularity are completely unrelated concepts."
+      },
+      {
+        "key": "f",
+        "text": "Tightly coupled modules are easier to maintain and modify."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Coupling measures dependence between components; high coupling means many interdependencies, so changes ripple widely\u2014making maintenance harder. High coupling is not preferred (c), coupling and modularity are closely related (e), and tightly coupled modules are harder to maintain (f), not easier."
+  },
+  {
+    "id": "q_5_3",
+    "globalIndex": 53,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 3,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe cohesion in software design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Cohesion refers to how strongly the elements within a module are related to one another"
+      },
+      {
+        "key": "b",
+        "text": "High cohesion generally improves maintainability and readability of software"
+      },
+      {
+        "key": "c",
+        "text": "Cohesion measures the level of dependency between different modules"
+      },
+      {
+        "key": "d",
+        "text": "Functional cohesion is considered one of the strongest forms of cohesion"
+      },
+      {
+        "key": "e",
+        "text": "Low cohesion is usually preferred because it increases module flexibility"
+      },
+      {
+        "key": "f",
+        "text": "Cohesion is concerned with the internal organization of a module"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Cohesion measures how strongly elements within a module are related\u2014high cohesion improves maintainability and readability, and functional cohesion is among the strongest types. Cohesion is not about dependency between modules (that's coupling), and low cohesion is not preferred\u2014it makes modules harder to understand and maintain."
+  },
+  {
+    "id": "q_5_4",
+    "globalIndex": 54,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 4,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "What does \u201ccommon coupling\u201d mean?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Two modules share global data"
+      },
+      {
+        "key": "b",
+        "text": "Modules communicate only through parameters"
+      },
+      {
+        "key": "c",
+        "text": "Modules rely on shared logic"
+      },
+      {
+        "key": "d",
+        "text": "Modules share a common interface"
+      },
+      {
+        "key": "e",
+        "text": "Modules share code"
+      },
+      {
+        "key": "f",
+        "text": "Modules share no data, as is the common practice"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "solution": "Common coupling occurs when two or more modules access the same global data area (e.g., global variables, shared memory), creating hidden dependencies and making maintenance difficult. It does not refer to parameter passing (b), shared logic (c), common interfaces (d), code sharing (e), or sharing no data (f)\u2014those describe other forms of coupling or no coupling at all."
+  },
+  {
+    "id": "q_5_5",
+    "globalIndex": 55,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 5,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following situations represents stamp coupling between modules?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A module passes only the required data items to another module"
+      },
+      {
+        "key": "b",
+        "text": "A module passes an entire record or data structure, although only part of it is needed"
+      },
+      {
+        "key": "c",
+        "text": "One module directly modifies the internal logic of another module"
+      },
+      {
+        "key": "d",
+        "text": "A module passes control information that affects the behavior of another module"
+      },
+      {
+        "key": "e",
+        "text": "Two modules share access to the same global data structure"
+      },
+      {
+        "key": "f",
+        "text": "A module receives a complete student structure but uses only the roll number field"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "f"
+    ],
+    "solution": "Stamp coupling occurs when a module passes an entire data structure (record/object) to another module, but only a portion of it is actually used\u2014as in passing a full student record but using only the roll number field (f). Passing only required data items (a) is data coupling, direct logic modification (c) is content coupling, passing control flags (d) is control coupling, and sharing global data (e) is common coupling."
+  },
+  {
+    "id": "q_5_6",
+    "globalIndex": 56,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 6,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A good modular software design generally aims to achieve which of the following characteristics?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "High cohesion among the elements within a module"
+      },
+      {
+        "key": "b",
+        "text": "Low coupling between different modules"
+      },
+      {
+        "key": "c",
+        "text": "Extensive dependence among different modules"
+      },
+      {
+        "key": "d",
+        "text": "Modules performing closely related functions"
+      },
+      {
+        "key": "e",
+        "text": "Strong interaction and interdependence among all modules"
+      },
+      {
+        "key": "f",
+        "text": "Minimal unnecessary communication between modules"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "f"
+    ],
+    "solution": "Good modular design aims for high cohesion (elements within a module are closely related), low coupling (minimal dependence between modules), modules that perform closely related functions, and minimal unnecessary communication between modules. Extensive dependence (c) and strong interaction among all modules (e) are signs of poor design\u2014they indicate high coupling and low independence."
+  },
+  {
+    "id": "q_5_7",
+    "globalIndex": 57,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 7,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are related to coupling in software design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Coupling indicates the degree of interdependence between modules"
+      },
+      {
+        "key": "b",
+        "text": "High coupling is generally desirable in modular software design"
+      },
+      {
+        "key": "c",
+        "text": "The amount of data exchanged between modules affects coupling"
+      },
+      {
+        "key": "d",
+        "text": "Coupling measures how closely the internal elements of a module are related"
+      },
+      {
+        "key": "e",
+        "text": "Low coupling improves module independence and maintainability"
+      },
+      {
+        "key": "f",
+        "text": "Modules with excessive interaction are usually considered highly coupled"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e",
+      "f"
+    ],
+    "solution": "Coupling measures interdependence between modules; it is affected by the amount of data exchanged, and low coupling improves independence and maintainability. Excessive interaction indicates high coupling. High coupling is not desirable (b), and coupling does not measure internal relatedness\u2014that is cohesion (d)."
+  },
+  {
+    "id": "q_5_8",
+    "globalIndex": 58,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 8,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "A module whose activities are related because they must occur within the same period of time exhibits which of the following types of cohesion?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Temporal cohesion"
+      },
+      {
+        "key": "b",
+        "text": "Functional cohesion"
+      },
+      {
+        "key": "c",
+        "text": "Sequential cohesion"
+      },
+      {
+        "key": "d",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "key": "e",
+        "text": "Procedural cohesion"
+      },
+      {
+        "key": "f",
+        "text": "Logical cohesion"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "solution": "Temporal cohesion occurs when module elements are grouped together because they are executed at the same time (e.g., initialization, shutdown, month-end processing)\u2014not because they are functionally related. Functional, sequential, procedural, and logical cohesion describe other grouping criteria, while coincidental cohesion is the weakest form with completely unrelated elements."
+  },
+  {
+    "id": "q_5_9",
+    "globalIndex": 59,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 9,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "If coupling between two modules cannot be completely avoided, which two of the following types of coupling are considered the most desirable?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Data coupling"
+      },
+      {
+        "key": "b",
+        "text": "Control coupling"
+      },
+      {
+        "key": "c",
+        "text": "Common coupling"
+      },
+      {
+        "key": "d",
+        "text": "Stamp coupling"
+      },
+      {
+        "key": "e",
+        "text": "Content coupling"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "d"
+    ],
+    "solution": "Data coupling (sharing only simple, necessary parameters) is the most desirable, followed by stamp coupling (passing a structure but using only part of it)\u2014both keep interdependence low. Control, common, and content coupling are progressively tighter and less desirable, with content coupling being the worst."
+  },
+  {
+    "id": "q_5_10",
+    "globalIndex": 60,
+    "assignment": 5,
+    "assignmentName": "Assignment 5",
+    "questionNumber": 10,
+    "topic": "Software Design, Modularity, Cohesion & Coupling",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which three of the following types of cohesion are considered weak forms of cohesion in software design compared to other forms of cohesion?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "key": "b",
+        "text": "Functional cohesion"
+      },
+      {
+        "key": "c",
+        "text": "Temporal cohesion"
+      },
+      {
+        "key": "d",
+        "text": "Communicational cohesion"
+      },
+      {
+        "key": "e",
+        "text": "Logical cohesion"
+      },
+      {
+        "key": "f",
+        "text": "Sequential cohesion"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "solution": "Coincidental (random grouping), temporal (time-based grouping), and logical (similar but unrelated tasks) cohesion are the weakest forms\u2014they make modules harder to understand and maintain. Functional, sequential, and communicational cohesion are stronger and more desirable. ******THE END******"
+  },
+  {
+    "id": "q_6_1",
+    "globalIndex": 61,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 1,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly differentiate function-oriented design from objectoriented design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Function-oriented design generally follows a bottom-up approach"
+      },
+      {
+        "key": "b",
+        "text": "Structured analysis and structured design are associated with function-oriented design"
+      },
+      {
+        "key": "c",
+        "text": "UML is commonly used in object-oriented design"
+      },
+      {
+        "key": "d",
+        "text": "Function-oriented design primarily focuses on objects and their interactions"
+      },
+      {
+        "key": "e",
+        "text": "High-level Object-oriented design primarily focuses on designing algorithms and data structures for classes."
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c"
+    ],
+    "solution": "Structured analysis/design are indeed associated with function-oriented design (b), and UML is the standard notation for object-oriented design (c). Option a is false because function-oriented design follows a top-down approach, and option d is false because it describes OOD, not function-oriented design. Option e (\"High-level Object-oriented design primarily focuses on designing algorithms and data structures for classes\") is incorrect because high-level OOD focuses on class identification, relationships, and architecture\u2014not on detailed algorithms and data structures, which belong to detailed design."
+  },
+  {
+    "id": "q_6_2",
+    "globalIndex": 62,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 2,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe structured analysis and structured design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Structured analysis follows a bottom-up decomposition approach"
+      },
+      {
+        "key": "b",
+        "text": "Structured analysis decomposes high-level functions into more detailed functions"
+      },
+      {
+        "key": "c",
+        "text": "Structured design maps detailed functions onto module structures"
+      },
+      {
+        "key": "d",
+        "text": "Structured analysis primarily focuses on identifying objects and classes"
+      },
+      {
+        "key": "e",
+        "text": "Structured design helps organize software into hierarchical modules"
+      },
+      {
+        "key": "f",
+        "text": "Structured design is closely associated with procedural software development"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "e",
+      "f"
+    ],
+    "solution": "Structured analysis uses top-down functional decomposition (b), and structured design maps those functions into module structures (c), organizing them hierarchically (e)\u2014both are closely tied to procedural development (f). Structured analysis follows a top-down (not bottom-up) approach (a), and it focuses on functions and data flow, not objects and classes (d)\u2014that is object-oriented analysis."
+  },
+  {
+    "id": "q_6_3",
+    "globalIndex": 63,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 3,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A Data Flow Diagram (DFD) primarily represents which of the following aspects of a software system?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Decision logic used in conditional statements"
+      },
+      {
+        "key": "b",
+        "text": "Flow of data among processes, data stores, and external entities"
+      },
+      {
+        "key": "c",
+        "text": "Sequence in which program statements are executed"
+      },
+      {
+        "key": "d",
+        "text": "Transformation of input data into output data through processing steps"
+      },
+      {
+        "key": "e",
+        "text": "Movement of data between external entities, processes, and data stores"
+      },
+      {
+        "key": "f",
+        "text": "Invocation order of program functions during execution"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "A DFD primarily represents the flow of data among processes, data stores, and external entities (b), the transformation of input data into output data through processing steps (d), and the movement of data between those elements (e). It does not show decision logic (a), execution sequence (c), or function invocation order (f)\u2014those are represented in flowcharts, structure charts, or sequence diagrams."
+  },
+  {
+    "id": "q_6_4",
+    "globalIndex": 64,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 4,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are NOT true regarding a Data Flow Diagram (DFD)?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A DFD represents the procedural logic of program code"
+      },
+      {
+        "key": "b",
+        "text": "A DFD is usually developed using hierarchical decomposition"
+      },
+      {
+        "key": "c",
+        "text": "A DFD explicitly represents decision-making conditions and control flow"
+      },
+      {
+        "key": "d",
+        "text": "A DFD represents how data is transformed through processes"
+      },
+      {
+        "key": "e",
+        "text": "A DFD is normally constructed using a top-down approach"
+      },
+      {
+        "key": "f",
+        "text": "A DFD directly represents the module call structure of a software system"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "f"
+    ],
+    "solution": "DFDs do not represent procedural logic (a), decision-making conditions or control flow (c)\u2014those are shown in flowcharts or structure charts\u2014nor do they represent module call structure (f), which is shown in structure charts. DFDs are developed using hierarchical/top-down decomposition (b, e) and do represent data transformation through processes (d), so those statements are true."
+  },
+  {
+    "id": "q_6_5",
+    "globalIndex": 65,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 5,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe functional decomposition in structured analysis and design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional decomposition involves recursive calls among functions"
+      },
+      {
+        "key": "b",
+        "text": "High-level data may also be decomposed into more detailed data representations"
+      },
+      {
+        "key": "c",
+        "text": "High-level functions are successively decomposed into more detailed functions"
+      },
+      {
+        "key": "d",
+        "text": "Functional decomposition focuses only on control flow between statements"
+      },
+      {
+        "key": "e",
+        "text": "Decomposition helps manage complexity by dividing a system into smaller parts"
+      },
+      {
+        "key": "f",
+        "text": "Functional decomposition is unrelated to modular software design"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Functional decomposition breaks high-level functions into more detailed ones (c) and may also decompose data into finer representations (b), helping manage complexity by dividing the system into smaller parts (e). It does not involve recursive calls (a) (that's a programming technique), focus only on control flow (d) (it's about function hierarchy), nor is it unrelated to modular design (f)\u2014it directly leads to modular structures."
+  },
+  {
+    "id": "q_6_6",
+    "globalIndex": 66,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 6,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe balancing in Data Flow Diagrams (DFDs)?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Balancing primarily ensures preservation of program control logic across DFD levels"
+      },
+      {
+        "key": "b",
+        "text": "The input data flows to a process must be preserved when that process is decomposed into a lower-level DFD"
+      },
+      {
+        "key": "c",
+        "text": "The output data flows from a process must be preserved in its decomposed lower-level DFD"
+      },
+      {
+        "key": "d",
+        "text": "Balancing ensures consistency of data flow between different levels of DFDs"
+      },
+      {
+        "key": "e",
+        "text": "A lower-level DFD may introduce completely new external input flows not present in the parent process"
+      },
+      {
+        "key": "f",
+        "text": "Data entering and leaving a parent process should correspond to the combined input and output flows of its child processes"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f"
+    ],
+    "solution": "Balancing ensures that input/output data flows of a parent process are preserved when decomposed into lower-level DFDs (b, c), maintaining consistency across levels (d)\u2014the net effect of child processes must match the parent's flows (f). It does not preserve control logic (a) (DFDs don't show control), and new external inputs cannot be introduced (e)\u2014that would violate balancing."
+  },
+  {
+    "id": "q_6_7",
+    "globalIndex": 67,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 7,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following activities are typically performed while constructing a Level-1 Data Flow Diagram (DFD)?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Representing each high-level function as a separate process (bubble)"
+      },
+      {
+        "key": "b",
+        "text": "Representing data inputs to each high-level function"
+      },
+      {
+        "key": "c",
+        "text": "Representing data outputs produced by each high-level function"
+      },
+      {
+        "key": "d",
+        "text": "Writing detailed program code for each process"
+      },
+      {
+        "key": "e",
+        "text": "Identifying data stores and data movement between processes"
+      },
+      {
+        "key": "f",
+        "text": "Specifying the exact sequence of statement execution within each module"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Constructing a Level-1 DFD involves representing each high-level function as a separate process (bubble), showing data inputs and outputs for each, and identifying data stores and data movement between processes. It does not involve writing code (d) or specifying execution sequence (f)\u2014those are implementation and control-flow details, not DFD modeling."
+  },
+  {
+    "id": "q_6_8",
+    "globalIndex": 68,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 8,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "For a given software system, a Data Flow Diagram (DFD) is primarily used to represent which of the following?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Flow and transformation of data within the system"
+      },
+      {
+        "key": "b",
+        "text": "Flow of control between program statements"
+      },
+      {
+        "key": "c",
+        "text": "Movement of data between processes, data stores, and external entities"
+      },
+      {
+        "key": "d",
+        "text": "Sequence of function calls in a program"
+      },
+      {
+        "key": "e",
+        "text": "Processing activities that transform input data into output data"
+      },
+      {
+        "key": "f",
+        "text": "Module hierarchy of the software system"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "solution": "A DFD primarily represents the flow and transformation of data (a), the movement of data between processes, data stores, and external entities (c), and the processing activities that transform inputs into outputs (e). It does not represent control flow (b), function call sequences (d), or module hierarchy (f)\u2014those are shown in flowcharts, sequence diagrams, or structure charts."
+  },
+  {
+    "id": "q_6_9",
+    "globalIndex": 69,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 9,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe structured analysis and structured design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Structured analysis primarily concentrates on analyzing syntax and structure of a program"
+      },
+      {
+        "key": "b",
+        "text": "Structured analysis focuses on capturing the system from the user\u2019s perspective"
+      },
+      {
+        "key": "c",
+        "text": "Structured design transforms the analysis model into a form suitable for implementation"
+      },
+      {
+        "key": "d",
+        "text": "Structured design helps derive a modular implementation structure"
+      },
+      {
+        "key": "e",
+        "text": "Structured analysis is concerned with understanding system requirements and functionality"
+      },
+      {
+        "key": "f",
+        "text": "Structured design ignores implementation considerations completely"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "solution": "Structured analysis captures system functions and data from the user's perspective (b) to understand requirements (e), while structured design transforms this analysis model into a modular implementation structure (c, d) suitable for coding. Structured analysis does not focus on program syntax (a) (that's code-level), and structured design does not ignore implementation (f)\u2014it explicitly considers it."
+  },
+  {
+    "id": "q_6_10",
+    "globalIndex": 70,
+    "assignment": 6,
+    "assignmentName": "Assignment 6",
+    "questionNumber": 10,
+    "topic": "Function-Oriented Design & Data Flow Diagrams (DFD)",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe a data dictionary in structured analysis?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "All data items appearing in a data dictionary map to variables in the program implementation"
+      },
+      {
+        "key": "b",
+        "text": "A data dictionary describes composite data items in terms of their component data elements"
+      },
+      {
+        "key": "c",
+        "text": "A data dictionary primarily represents control flow between modules"
+      },
+      {
+        "key": "d",
+        "text": "A DFD is commonly accompanied by a data dictionary"
+      },
+      {
+        "key": "e",
+        "text": "A data dictionary includes the names and purposes of data items"
+      },
+      {
+        "key": "f",
+        "text": "A data dictionary specifies the sequence of execution of program statements"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "A data dictionary describes composite data items by breaking them into component elements (b), is commonly used alongside DFDs (d), and includes names and purposes of data items (e). It does not require every data item to map directly to program variables (a), does not represent control flow (c), and does not specify execution sequence (f)\u2014those are implementation and control-flow ******THE END******"
+  },
+  {
+    "id": "q_7_1",
+    "globalIndex": 71,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 1,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe the purpose and characteristics of UML models?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "UML models help manage system complexity by representing every implementation detail of the system."
+      },
+      {
+        "key": "b",
+        "text": "Different UML models may emphasize different aspects of a system"
+      },
+      {
+        "key": "c",
+        "text": "UML primarily represents low-level program execution details only"
+      },
+      {
+        "key": "d",
+        "text": "UML is primarily a graphical modelling technique"
+      },
+      {
+        "key": "e",
+        "text": "UML modelling captures only the important aspects of a system while ignoring unnecessary details"
+      },
+      {
+        "key": "f",
+        "text": "UML models are generally more compact and easier to understand than textual system descriptions"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "d",
+      "e",
+      "f"
+    ],
+    "solution": "UML uses graphical models to represent important system aspects at different levels of abstraction. Different diagrams emphasize different views and are generally easier to understand than lengthy textual descriptions."
+  },
+  {
+    "id": "q_7_2",
+    "globalIndex": 72,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 2,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Consider the statement: \u201cA savings account is a type of bank account.\u201d Assuming BankAccount and SavingsAccount are two classes, which of the following relationships best describes this situation?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Aggregation"
+      },
+      {
+        "key": "b",
+        "text": "Association"
+      },
+      {
+        "key": "c",
+        "text": "Generalization-specialization"
+      },
+      {
+        "key": "d",
+        "text": "Composition"
+      },
+      {
+        "key": "e",
+        "text": "Overloading"
+      },
+      {
+        "key": "f",
+        "text": "Dependency"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "A saving account is a type of bank account is an example of Generalization-specialization."
+  },
+  {
+    "id": "q_7_3",
+    "globalIndex": 73,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 3,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements correctly describe multiple inheritance in object-oriented programming?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A base class has multiple derived classes"
+      },
+      {
+        "key": "b",
+        "text": "A class is derived from more than one parent class"
+      },
+      {
+        "key": "c",
+        "text": "Multiple inheritance represents a situation where two classes recursively inherit from each other"
+      },
+      {
+        "key": "d",
+        "text": "A derived class can combine functionalities inherited from multiple parent classes"
+      },
+      {
+        "key": "e",
+        "text": "A class derived through several levels of inheritance is an example of multiple inheritance"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Multiple inheritance means a class inherits from more than one parent class. It allows a derived class to combine features from multiple base classes."
+  },
+  {
+    "id": "q_7_4",
+    "globalIndex": 74,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 4,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are correct regarding the following diagram?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass7_q4.png",
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": ""
+      },
+      {
+        "key": "f",
+        "text": "The Borrow Book use case always performs Verify Member Verify Member represents common functionality reusable by other use cases The relationship shown is an example of use-case generalization The included use case helps reduce duplication in system behavior Verify Member is executed only under exceptional conditions The diagram represents an \u00abinclude\u00bb relationship between use cases"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "f"
+    ],
+    "solution": "An \u00abinclude\u00bb relationship means the included use case is always executed and represents reusable common functionality. It helps reduce duplication among use cases."
+  },
+  {
+    "id": "q_7_5",
+    "globalIndex": 75,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 5,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider the following UML use-case diagram: Which of the following statements are correct regarding the above diagram?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass7_q5.png",
+    "options": [
+      {
+        "key": "a",
+        "text": "Withdraw Cash provides optional behavior to Print Receipt"
+      },
+      {
+        "key": "b",
+        "text": "The base use case Withdraw Cash can execute without Print Receipt"
+      },
+      {
+        "key": "c",
+        "text": "The \u00abextend\u00bb relationship is used to model conditional or optional functionality"
+      },
+      {
+        "key": "d",
+        "text": "Withdraw Cash extends Print Receipt"
+      },
+      {
+        "key": "e",
+        "text": "Print Receipt is always executed whenever Withdraw Cash occurs"
+      },
+      {
+        "key": "f",
+        "text": "The extending use case is invoked only under specific conditions"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "f"
+    ],
+    "solution": "An \u00abextend\u00bb relationship models optional/conditional behavior. The base use case can execute independently, while the extending use case runs only under specific conditions."
+  },
+  {
+    "id": "q_7_6",
+    "globalIndex": 76,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 6,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "In an online shopping system, before a customer can place an order, the system must verify whether the payment details are valid. Which of the following UML use-case relationships is most appropriate to factor the Place Order use case into Validate Payment functionality?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Aggregation"
+      },
+      {
+        "key": "b",
+        "text": "Include"
+      },
+      {
+        "key": "c",
+        "text": "Extend"
+      },
+      {
+        "key": "d",
+        "text": "Inheritance"
+      },
+      {
+        "key": "e",
+        "text": "Dependency"
+      },
+      {
+        "key": "f",
+        "text": "Composition"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "solution": "Validate Payment is mandatory before Place Order can complete. The \u00abinclude\u00bb relationship is used for mandatory reusable functionality."
+  },
+  {
+    "id": "q_7_7",
+    "globalIndex": 77,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 7,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are NOT characteristics of a good textual description accompanying a UML use-case diagram?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": "The textual description should be understandable from the actor\u2019s perspective The description should be written entirely using programming language syntax The description should focus on interactions between the actor and the system The use-case description should primarily describe message exchanges among classes"
+      },
+      {
+        "key": "e",
+        "text": "The description should conclude after the system responds to the actor\u2019s request"
+      },
+      {
+        "key": "f",
+        "text": "The textual description should rely mainly on internal implementation details familiar only to developers"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "d",
+      "f"
+    ],
+    "solution": "Use-case descriptions should be written in simple user-oriented language focusing on actorsystem interaction, not programming syntax, class-level details, or implementation internals."
+  },
+  {
+    "id": "q_7_8",
+    "globalIndex": 78,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 8,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are FALSE regarding UML models of a software system?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": ""
+      },
+      {
+        "key": "f",
+        "text": "UML models help manage system complexity through abstraction Every UML model represents the design view of a system only UML design diagrams are models of the system UML models are useful only after the software has been fully implemented. Dynamic UML models represent behavioral aspects of the system Static UML models represent structural aspects of the system"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "UML models are not limited to the design view only; they can represent analysis, design, and other perspectives. UML models are useful throughout development, not only after implementation."
+  },
+  {
+    "id": "q_7_9",
+    "globalIndex": 79,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 9,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "For a class hierarchy to support runtime polymorphism in an object-oriented system, which of the following relationships or features are generally required?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Inheritance"
+      },
+      {
+        "key": "b",
+        "text": "Aggregation"
+      },
+      {
+        "key": "c",
+        "text": "Method overriding"
+      },
+      {
+        "key": "d",
+        "text": "Generalization"
+      },
+      {
+        "key": "e",
+        "text": "Dependency"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "solution": "Runtime polymorphism requires inheritance/generalization and method overriding so that derived class methods can be invoked through base class references."
+  },
+  {
+    "id": "q_7_10",
+    "globalIndex": 80,
+    "assignment": 7,
+    "assignmentName": "Assignment 7",
+    "questionNumber": 10,
+    "topic": "Object-Oriented Concepts, UML & Use Case Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are important advantages of using inheritance in object-oriented design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Code reusability"
+      },
+      {
+        "key": "b",
+        "text": "Increased duplication of code"
+      },
+      {
+        "key": "c",
+        "text": "Support for extensibility"
+      },
+      {
+        "key": "d",
+        "text": "Reduced maintainability"
+      },
+      {
+        "key": "e",
+        "text": "Hierarchical classification of classes"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "solution": "Inheritance promotes code reuse, supports easy extension of existing classes, and helps organize classes into hierarchical structures. ************END***********"
+  },
+  {
+    "id": "q_8_1",
+    "globalIndex": 81,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 1,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the following UML diagram, which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass8_q1.png",
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": ""
+      },
+      {
+        "key": "f",
+        "text": ""
+      },
+      {
+        "key": "g",
+        "text": "A Branch may not have any Account An Account can exist without being issued by a Branch An Account may use multiple ATMs Current inherits from Saving An Account may be issued by 2 Branches A Customer must have at least one Account A Saving is an Account"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "g"
+    ],
+    "solution": "An account may use multiple ATMs and A saving is an account are the correct option."
+  },
+  {
+    "id": "q_8_2",
+    "globalIndex": 82,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 2,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the UML relationship shown in the diagram, which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass8_q2.png",
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "A Circle is composed of a Point A Point in the composition relationship has a lifecycle independent of the Circle. The relationship shown is inheritance Polygon and Circle are subclasses of Point The diagram represents a \u201chas-a\u201d relationship between Polygon and Point classes"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "e"
+    ],
+    "solution": "A Circle is composed of Point(s), indicating a strong whole-part relationship. Polygon has a \"has-a\" relationship with Point. Composition does not imply inheritance, and Points in composition do not have an independent lifecycle."
+  },
+  {
+    "id": "q_8_3",
+    "globalIndex": 83,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 3,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the UML composition relationship shown, which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass8_q3.png",
+    "options": [
+      {
+        "key": "a",
+        "text": "A Window may contain multiple Frames"
+      },
+      {
+        "key": "b",
+        "text": "A Frame can simultaneously belong to multiple Windows"
+      },
+      {
+        "key": "c",
+        "text": "Destruction of a Window implies destruction of its Frames"
+      },
+      {
+        "key": "d",
+        "text": "The relationship shown between the classes Window and Frame is composition"
+      },
+      {
+        "key": "e",
+        "text": "Frame inherits from Window"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "solution": "From the above diagram a., c. and d. are the correct option."
+  },
+  {
+    "id": "q_8_4",
+    "globalIndex": 84,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 4,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the following Java code, which of the following statements are correct?",
+    "codeSnippet": "public class Car{\n  private Wheel wheels[4];\n  public Car (){\n    wheels[0] = new Wheel();\n    wheels[1] = new Wheel();\n    wheels[2] = new Wheel();\n    wheels[3] = new Wheel();\n  }\n}",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A Car object contains exactly four Wheel objects"
+      },
+      {
+        "key": "b",
+        "text": "The relationship between Car and Wheel is composition"
+      },
+      {
+        "key": "c",
+        "text": "A Wheel object may independently exist outside a Car in this design"
+      },
+      {
+        "key": "d",
+        "text": "Car is responsible for creating its Wheel objects"
+      },
+      {
+        "key": "e",
+        "text": "Wheel inherits from Car"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "A Car creates and owns exactly four Wheel objects, indicating a composition relationship. The wheels are created inside the Car constructor."
+  },
+  {
+    "id": "q_8_5",
+    "globalIndex": 85,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 5,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the UML sequence diagram shown, which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass8_q5.png",
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "The diagram represents interaction among objects over time Dashed vertical lines represent object lifelines Rectangles on lifelines denote object activity/activation Sequence diagrams primarily represent inheritance relationships Objects are typically shown at the top of the diagram"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Sequence diagram does not represent inheritance relationship."
+  },
+  {
+    "id": "q_8_6",
+    "globalIndex": 86,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 6,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Based on the comparison between Object-Oriented Analysis (OOA) and Object-Oriented Design (OOD), which of the following statements are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "OOA focuses on system design"
+      },
+      {
+        "key": "b",
+        "text": "OOD is completely independent of implementation constraints"
+      },
+      {
+        "key": "c",
+        "text": "OOD refines the analysis model into a design solution"
+      },
+      {
+        "key": "d",
+        "text": "OOA is generally implementation-independent"
+      },
+      {
+        "key": "e",
+        "text": "OOD takes implementation considerations into account"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "solution": "OOA focuses on analyzing requirements and is mostly implementation-independent. OOD refines the analysis model into an implementable design considering implementation constraints."
+  },
+  {
+    "id": "q_8_7",
+    "globalIndex": 87,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 7,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "In object-oriented analysis, which of the following are typical responsibilities of Boundary objects?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Managing persistent business data"
+      },
+      {
+        "key": "b",
+        "text": "Interacting with external actors/users"
+      },
+      {
+        "key": "c",
+        "text": "Handling communication between the system and its environment"
+      },
+      {
+        "key": "d",
+        "text": "Coordinating complex control flow logic"
+      },
+      {
+        "key": "e",
+        "text": "Representing user interfaces or external interfaces"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Boundary objects interact with users/external systems and represent interfaces such as screens, forms, or APIs. They do not store persistent data or control workflow logic."
+  },
+  {
+    "id": "q_8_8",
+    "globalIndex": 88,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 8,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about Entity Objects are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Entity objects typically store information for transient use"
+      },
+      {
+        "key": "b",
+        "text": "Entity objects are mainly responsible for user interaction"
+      },
+      {
+        "key": "c",
+        "text": "Entity objects may perform elementary operations such as searching and sorting"
+      },
+      {
+        "key": "d",
+        "text": "Entity objects are often identified from nouns in the problem description"
+      },
+      {
+        "key": "e",
+        "text": "Entity objects usually coordinate overall system control flow"
+      },
+      {
+        "key": "f",
+        "text": "Examples of entity objects include Book and BookRegister"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "d",
+      "f"
+    ],
+    "solution": "Entity objects represent persistent business data and may perform simple operations on that data. They are often identified from nouns in the problem domain."
+  },
+  {
+    "id": "q_8_9",
+    "globalIndex": 89,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 9,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Which one of the following statement about Controller Objects is FALSE?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Controller objects help realize use case behavior"
+      },
+      {
+        "key": "b",
+        "text": "Controller objects interact with boundary objects"
+      },
+      {
+        "key": "c",
+        "text": "Controller objects coordinate the activities of entity objects"
+      },
+      {
+        "key": "d",
+        "text": "Controller objects primarily store long-term persistent data"
+      },
+      {
+        "key": "e",
+        "text": "A single use case may involve multiple controller objects"
+      },
+      {
+        "key": "f",
+        "text": "Controller objects often contain significant business logic"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "solution": "Controller objects coordinate use-case flow and business logic, but persistent long-term data is mainly handled by Entity objects."
+  },
+  {
+    "id": "q_8_10",
+    "globalIndex": 90,
+    "assignment": 8,
+    "assignmentName": "Assignment 8",
+    "questionNumber": 10,
+    "topic": "UML Class Diagrams, Relationships & Sequence Diagrams",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about composite states in UML state machines are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A composite state needs to contain three or more nested substates"
+      },
+      {
+        "key": "b",
+        "text": "Composite states help reduce complexity in state diagrams"
+      },
+      {
+        "key": "c",
+        "text": "A system can be in only the composite state and never in its substates"
+      },
+      {
+        "key": "d",
+        "text": "Composite states support hierarchical state modeling"
+      },
+      {
+        "key": "e",
+        "text": "Entry into a composite state may automatically activate one of its substates"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Composite states simplify complex state diagrams and support hierarchical state modeling. Entering a composite state can automatically activate a default substate. ************END***********"
+  },
+  {
+    "id": "q_9_1",
+    "globalIndex": 91,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 1,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are purposes of using CRC cards in object-oriented design?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Identifying class responsibilities"
+      },
+      {
+        "key": "b",
+        "text": "Discovering collaborations among classes"
+      },
+      {
+        "key": "c",
+        "text": "Replacing sequence diagrams with collaboration diagrams"
+      },
+      {
+        "key": "d",
+        "text": "Analysis of complex sequence diagrams"
+      },
+      {
+        "key": "e",
+        "text": "Determining low-level machine instructions"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "solution": "CRC cards are used to identify class responsibilities and collaborations among classes during object-oriented design. They are not used for low-level implementation details."
+  },
+  {
+    "id": "q_9_2",
+    "globalIndex": 92,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 2,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following do NOT serve as useful guidelines for identifying boundary classes from a problem description?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Boundary classes often represent interfaces between the system and external actors"
+      },
+      {
+        "key": "b",
+        "text": "Every noun appearing in the problem description must be modeled as a boundary class"
+      },
+      {
+        "key": "c",
+        "text": "Screens, forms, and dialogs may correspond to boundary classes"
+      },
+      {
+        "key": "d",
+        "text": "Boundary classes are responsible for long-term data storage"
+      },
+      {
+        "key": "e",
+        "text": "External system interfaces may lead to identification of boundary classes"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Not every noun becomes a boundary class, and boundary classes do not handle long-term data storage. They mainly represent interfaces between the system and external actors."
+  },
+  {
+    "id": "q_9_3",
+    "globalIndex": 93,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 3,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements represent software failures observed during testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The analyst omitted an important requirement from the specification"
+      },
+      {
+        "key": "b",
+        "text": "The programmer used \u2018*\u2019 instead of \u2018/\u2019 in an arithmetic expression"
+      },
+      {
+        "key": "c",
+        "text": "The application terminates unexpectedly for a valid user input"
+      },
+      {
+        "key": "d",
+        "text": "A tester observes an incorrect output for a valid transaction"
+      },
+      {
+        "key": "e",
+        "text": "A reviewer submits a report of a logical defect that was identified during code inspection"
+      },
+      {
+        "key": "f",
+        "text": "The software hangs when multiple users access it simultaneously"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "solution": "A software failure is an observable incorrect behavior during execution, such as crashes, incorrect outputs, or system hangs."
+  },
+  {
+    "id": "q_9_4",
+    "globalIndex": 94,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 4,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following activities are primarily considered validation activities in software engineering?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Code inspection"
+      },
+      {
+        "key": "b",
+        "text": "Acceptance testing"
+      },
+      {
+        "key": "c",
+        "text": "System testing"
+      },
+      {
+        "key": "d",
+        "text": "User evaluation of prototypes"
+      },
+      {
+        "key": "e",
+        "text": "Design walkthrough"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Validation checks whether the software satisfies user needs. Acceptance testing, system testing, and user evaluation of prototypes are validation activities."
+  },
+  {
+    "id": "q_9_5",
+    "globalIndex": 95,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 5,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are examples of failures rather than faults or errors in software engineering?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Incorrect operator used in source code"
+      },
+      {
+        "key": "b",
+        "text": "The software freezes during execution"
+      },
+      {
+        "key": "c",
+        "text": "A tester observes an unexpected output from the program"
+      },
+      {
+        "key": "d",
+        "text": "A programmer misunderstands the design specification"
+      },
+      {
+        "key": "e",
+        "text": "The system rejects a valid input value"
+      },
+      {
+        "key": "f",
+        "text": "A code inspection reveals a missing condition check"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Failures are observable incorrect behaviors during execution, such as freezing, wrong outputs, or rejecting valid inputs."
+  },
+  {
+    "id": "q_9_6",
+    "globalIndex": 96,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 6,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "What is the number of boundary classes that must be included in the domain model for a software development project whose use case diagram is shown below?",
+    "codeSnippet": null,
+    "image": "/diagrams/ass9_q6.png",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "7"
+      },
+      {
+        "key": "e",
+        "text": "8"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "solution": "The number of boundary classes depends on the actor\u2013use case interactions shown in the diagram. So, number of boundary classes =5 ."
+  },
+  {
+    "id": "q_9_7",
+    "globalIndex": 97,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 7,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A software company observes that software testing consumes a large portion of total project effort, but testing activities are often completed within a relatively short calendar duration. Which of the following factors can explain this situation?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Multiple testing activities can be executed in parallel"
+      },
+      {
+        "key": "b",
+        "text": "Automated testing tools can significantly reduce testing time"
+      },
+      {
+        "key": "c",
+        "text": "Testing teams are usually larger than coding teams"
+      },
+      {
+        "key": "d",
+        "text": "Several testers can independently execute different test cases simultaneously"
+      },
+      {
+        "key": "e",
+        "text": "Testing is typically less complex than software design"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Testing can finish in shorter calendar time because many testing tasks and test cases can run in parallel, often supported by automation tools."
+  },
+  {
+    "id": "q_9_8",
+    "globalIndex": 98,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 8,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding negative test cases?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Negative testing is mainly intended to confirm that the software crashes for incorrect inputs"
+      },
+      {
+        "key": "b",
+        "text": "Negative test cases verify whether the software can gracefully handle invalid inputs"
+      },
+      {
+        "key": "c",
+        "text": "Entering alphabetic characters into a numeric field is an example of negative testing"
+      },
+      {
+        "key": "d",
+        "text": "Negative test cases help improve software robustness and reliability"
+      },
+      {
+        "key": "e",
+        "text": "Negative testing is unnecessary if positive test cases have already passed"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Negative testing checks whether software handles invalid inputs properly. Invalid inputs like alphabets in numeric fields help improve robustness and reliability."
+  },
+  {
+    "id": "q_9_9",
+    "globalIndex": 99,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 9,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are correct consequences of the pesticide effect in software testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "The pesticide effect suggests that testing activities can stop once a test suite has been executed several times."
+      },
+      {
+        "key": "b",
+        "text": "Repeating the same set of test cases indefinitely may result in fewer new defects being detected over time."
+      },
+      {
+        "key": "c",
+        "text": "Test cases should be periodically reviewed, modified, and supplemented with new tests."
+      },
+      {
+        "key": "d",
+        "text": "Executing the same test suite repeatedly guarantees that all remaining defects will eventually be found."
+      },
+      {
+        "key": "e",
+        "text": "A test suite that was effective in the past may become less effective at finding new defects in the future."
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "The pesticide effect states that repeatedly running the same tests finds fewer new defects over time. Therefore, test cases should be updated regularly, as previously effective test suites may lose effectiveness."
+  },
+  {
+    "id": "q_9_10",
+    "globalIndex": 100,
+    "assignment": 9,
+    "assignmentName": "Assignment 9",
+    "questionNumber": 10,
+    "topic": "CRC Cards, Boundary Classes, Faults, Errors & Failures",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are true regarding who tests software?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Programmers commonly perform system testing"
+      },
+      {
+        "key": "b",
+        "text": "Users are mainly responsible for integration testing"
+      },
+      {
+        "key": "c",
+        "text": "Beta versions of software are often tested by a set of friendly customers"
+      },
+      {
+        "key": "d",
+        "text": "A dedicated test team may develop system test plans and testing strategies"
+      },
+      {
+        "key": "e",
+        "text": "Test teams usually perform all forms of testing except unit and acceptance testing"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "solution": "Beta testing is often done by selected customers, while dedicated test teams handle most testing activities except unit testing and acceptance testing."
+  },
+  {
+    "id": "q_10_1",
+    "globalIndex": 101,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 1,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "A software organization observes from past projects that approximately 40% of defects are detected during unit testing, 35% during integration testing, and 25% during system testing. If the total planned testing effort for a project is 200 person-months, how much effort should ideally be allocated to integration testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "50 person-months 60 person-months 70 person-months 80 person-months 90 person-months"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "Integration testing effort = 35% \u00d7 200 = 70person-months."
+  },
+  {
+    "id": "q_10_2",
+    "globalIndex": 102,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 2,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Consider a function named triangleType(a,b,c) that determines whether three integer side lengths form an Equilateral, Isosceles, or Scalene triangle. Assuming only valid equivalence classes are considered, what is the minimum number of test cases required for equivalence class testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "1 2 3 4 5"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "The valid equivalence classes are Equilateral, Isosceles, and Scalene triangles. One test case is needed for each class."
+  },
+  {
+    "id": "q_10_3",
+    "globalIndex": 103,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 3,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are not black-box testing techniques?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "Equivalence class testing Boundary value analysis Statement coverage testing Path testing Decision table testing"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "d"
+    ],
+    "solution": "Statement coverage and path testing are white-box testing techniques because they depend on the internal structure and control flow of the program."
+  },
+  {
+    "id": "q_10_4",
+    "globalIndex": 104,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 4,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Assume that a web-based examination system has three input fields: Subject, Difficulty Level, and Question Type. \u2022 Subject can take 5 valid values: {Math, Physics, Chemistry, Biology, English} \u2022 Difficulty Level can take 3 valid values: {Easy, Medium, Hard} \u2022 Question Type can take 4 valid values: {MCQ, MSQ, NAT, Essay} Assuming that the interface allows only valid inputs, how many test cases are required for exhaustive functional testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "48"
+      },
+      {
+        "key": "c",
+        "text": "60"
+      },
+      {
+        "key": "d",
+        "text": "75"
+      },
+      {
+        "key": "e",
+        "text": "120"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "Exhaustive testing requires testing all possible valid combinations: 5 \u00d7 3 \u00d7 4 = 60test cases."
+  },
+  {
+    "id": "q_10_5",
+    "globalIndex": 105,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 5,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements are false regarding white-box testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "White-box testing requires knowledge of the program\u2019s internal logic and structure"
+      },
+      {
+        "key": "b",
+        "text": "Path testing is a white-box testing technique"
+      },
+      {
+        "key": "c",
+        "text": "White-box testing is also known as behavioral testing"
+      },
+      {
+        "key": "d",
+        "text": "Statement coverage is one possible white-box testing strategy"
+      },
+      {
+        "key": "e",
+        "text": "Test cases in white-box testing are designed independently of the program code"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "e"
+    ],
+    "solution": "White-box testing is structure-based testing, not behavioral testing. Its test cases are designed using knowledge of the program code and logic."
+  },
+  {
+    "id": "q_10_6",
+    "globalIndex": 106,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 6,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Consider the function checkTriangle(float a, float b, float c) that determines whether three side lengths can form a valid triangle. For equivalence class testing, at the first level of the equivalence class hierarchy, valid and invalid equivalence classes can be identified. The valid set of input values can be further divided into how many equivalence classes?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      },
+      {
+        "key": "e",
+        "text": "5"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "The valid triangle inputs can be divided into three equivalence classes: Equilateral, Isosceles, and Scalene triangles."
+  },
+  {
+    "id": "q_10_7",
+    "globalIndex": 107,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 7,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Which one of the following assumptions underlies boundary value analysis testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "Errors are more likely to occur near the extreme ends of input ranges All invalid inputs produce identical program behavior Programs behave identically for all valid inputs Boundary values are always invalid inputs Every software fault can be detected using boundary values alone"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "solution": "Boundary Value Analysis assumes that errors are more likely to occur near the boundaries or extreme ends of input ranges."
+  },
+  {
+    "id": "q_10_8",
+    "globalIndex": 108,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 8,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "Suppose a function named check(a, b, c) takes three Boolean variables as input parameters. How many valid equivalence classes can be designed for black-box testing of the function?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "4 6 8 9 12"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "Each Boolean variable has 2 possible values (True/False). For 3 variables, total valid combinations are 23 = 8."
+  },
+  {
+    "id": "q_10_9",
+    "globalIndex": 109,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 9,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding unit testing, drivers, and stubs are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Unit testing is performed after integrating all modules of the software"
+      },
+      {
+        "key": "b",
+        "text": "A driver simulates the behavior of a calling function and provides input data to the unit under test"
+      },
+      {
+        "key": "c",
+        "text": "A stub simulates the behavior of a module that has not yet been implemented"
+      },
+      {
+        "key": "d",
+        "text": "Unit testing focuses on testing individual methods, modules, classes, or components in isolation"
+      },
+      {
+        "key": "e",
+        "text": "Drivers are mainly used to replace lower-level modules called by the tested component"
+      },
+      {
+        "key": "f",
+        "text": "Stubs are commonly used when the called modules are unavailable during testing"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "f"
+    ],
+    "solution": "Drivers provide input to the unit under test, while stubs simulate unavailable called modules. Unit testing tests individual components in isolation."
+  },
+  {
+    "id": "q_10_10",
+    "globalIndex": 110,
+    "assignment": 10,
+    "assignmentName": "Assignment 10",
+    "questionNumber": 10,
+    "topic": "Black-Box Testing, Equivalence Class & Boundary Value Analysis",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider a function substr(s1, s2) that takes two strings where s1 can have a maximum length of 20 characters and s2 can have a maximum length of 5 characters. The function checks whether s2 is a substring of s1. Which of the following represent valid equivalence classes for testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": ""
+      },
+      {
+        "key": "f",
+        "text": "s1 length between 1 and 20 characters s1 length greater than 20 characters s2 is a substring of s1 s2 is not a substring of s1 s2 length exactly equal to 3 only s1 length always equal to 20 only"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solution": "Equivalence classes include valid/invalid string lengths and cases where s2 is or is not a substring of s1. Single exact lengths are not equivalence classes."
+  },
+  {
+    "id": "q_11_1",
+    "globalIndex": 111,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 1,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "At least how many test cases are required to achieve multiple condition coverage for the following decision?",
+    "codeSnippet": "if ((x > 0) || (y < 10))",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "z = z + 1; 1 2 3 4 Multiple condition coverage is not achievable for the given decision"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "solution": "Multiple condition coverage requires testing all possible combinations of the two conditions. For 2 Boolean conditions, 22 = 4 test cases are needed."
+  },
+  {
+    "id": "q_11_2",
+    "globalIndex": 112,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 2,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about combinatorial testing are correct?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It focuses on designing test cases based on combinations of input parameter values"
+      },
+      {
+        "key": "b",
+        "text": "Pairwise testing is a form of combinatorial testing"
+      },
+      {
+        "key": "c",
+        "text": "It guarantees exhaustive testing of all program paths"
+      },
+      {
+        "key": "d",
+        "text": "It helps reduce the number of test cases while still detecting many faults"
+      },
+      {
+        "key": "e",
+        "text": "It is mainly used only for white-box testing"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Combinatorial testing designs test cases using combinations of input values. Pairwise testing is a common form that reduces test cases while still detecting many faults."
+  },
+  {
+    "id": "q_11_3",
+    "globalIndex": 113,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 3,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "In combinatorial testing, a \u201ct-way interaction\u201d refers to:",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Testing interactions among t input parameters"
+      },
+      {
+        "key": "b",
+        "text": "Executing t program statements simultaneously"
+      },
+      {
+        "key": "c",
+        "text": "Testing only t test cases"
+      },
+      {
+        "key": "d",
+        "text": "Ensuring every combination of any t parameter values appears at least once"
+      },
+      {
+        "key": "e",
+        "text": "Measuring test execution time for t seconds"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "d"
+    ],
+    "solution": "A t-way interaction means interactions among any \ud835\udc61input parameters are tested, ensuring every combination of those \ud835\udc61parameter values appears at least once."
+  },
+  {
+    "id": "q_11_4",
+    "globalIndex": 114,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 4,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Consider a system with three Boolean input parameters A, B, and C. Which of the following statements are true regarding exhaustive combinational testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Exhaustive combinatorial testing would require 16 test cases"
+      },
+      {
+        "key": "b",
+        "text": "Pairwise testing would always require 8 test cases"
+      },
+      {
+        "key": "c",
+        "text": "Exhaustive testing checks every possible input combination"
+      },
+      {
+        "key": "d",
+        "text": "Combinatorial testing can sometimes reduce the number of test cases"
+      },
+      {
+        "key": "e",
+        "text": "Decision tables are typically used to design exhaustive combinatorial testing"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "d"
+    ],
+    "solution": "Exhaustive combinatorial testing checks all possible input combinations. Combinatorial techniques like pairwise testing can reduce the number of required test cases."
+  },
+  {
+    "id": "q_11_5",
+    "globalIndex": 115,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 5,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "A railway ticket booking system is to be tested using a decision table with the following conditions: Seats available, Payment successful, Passenger verified. The actions include: Confirm booking, Generate waiting ticket, Ask to retry payment, Reject booking. Which of the following statements are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "A rule would be if payment fails, ask to retry payment action is triggered"
+      },
+      {
+        "key": "b",
+        "text": "\u201cConfirm booking\u201d action would require all conditions to be satisfied"
+      },
+      {
+        "key": "c",
+        "text": "Decision tables help systematically derive minimal test cases for exhaustive testing"
+      },
+      {
+        "key": "d",
+        "text": "Exhaustive program path testing is ensured when using decision table-based testing"
+      },
+      {
+        "key": "e",
+        "text": "Multiple rules in a decision table can map to the same action"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "e"
+    ],
+    "solution": "Decision tables map condition combinations to actions. Multiple rules may lead to the same action, and confirming booking requires all necessary conditions to be satisfied"
+  },
+  {
+    "id": "q_11_6",
+    "globalIndex": 116,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 6,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "In cause-effect graphing, which of the following are correctly matched?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Causes \u2192 Input conditions"
+      },
+      {
+        "key": "b",
+        "text": "Effects \u2192 Output conditions"
+      },
+      {
+        "key": "c",
+        "text": "Nodes \u2192 Representation of causes and effects"
+      },
+      {
+        "key": "d",
+        "text": "Constraints \u2192 Restrictions on outputs only"
+      },
+      {
+        "key": "e",
+        "text": "Intermediate nodes \u2192 Randomly generated test cases"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solution": "Causes represent input conditions, effects represent output conditions, and nodes represent causes/effects in the graph. Constraints are not restrictions on outputs only, and intermediate nodes represent logical expressions, not test cases."
+  },
+  {
+    "id": "q_11_7",
+    "globalIndex": 117,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 7,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about black-box testing are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It guarantees complete statement coverage"
+      },
+      {
+        "key": "b",
+        "text": "It is impossible to test every possible input-output combination for non-trivial systems"
+      },
+      {
+        "key": "c",
+        "text": "Some parts of the code may remain unreachable during testing"
+      },
+      {
+        "key": "d",
+        "text": "It can determine whether extra functionality has been implemented"
+      },
+      {
+        "key": "e",
+        "text": "It focuses on functional behavior without examining internal code"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Black-box testing focuses only on external behavior and cannot ensure complete code coverage. Some code may remain unexecuted during testing."
+  },
+  {
+    "id": "q_11_8",
+    "globalIndex": 118,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 8,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are true regarding the shortcomings of relying on only one testing approach?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Using only black-box testing may leave some code untested"
+      },
+      {
+        "key": "b",
+        "text": "Using only white-box testing may fail to detect missing requirements"
+      },
+      {
+        "key": "c",
+        "text": "White-box testing is preferred as it guarantees functional correctness"
+      },
+      {
+        "key": "d",
+        "text": "Black-box testing is preferred as it guarantees detection of extra functionality"
+      },
+      {
+        "key": "e",
+        "text": "Both approaches together provide complete fault detection"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "solution": "Only black-box testing may leave some internal code untested, while only white-box testing may miss missing or incorrect requirements."
+  },
+  {
+    "id": "q_11_9",
+    "globalIndex": 119,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 9,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "For the following program statement, which of the following test suites would achieve basic condition coverage?",
+    "codeSnippet": "if (x >= 5 || y < 20) z++;",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "(x=10,y=30), (x=2,y=10)"
+      },
+      {
+        "key": "b",
+        "text": "(x=10,y=30), (x=1,y=25)"
+      },
+      {
+        "key": "c",
+        "text": "(x=7,y=15), (x=1,y=10)"
+      },
+      {
+        "key": "d",
+        "text": "(x=8,y=40), (x=2,y=5), (x=1,y=30)"
+      },
+      {
+        "key": "e",
+        "text": "(x=6,y=18), (x=2,y=25)"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "d",
+      "e"
+    ],
+    "solution": "Basic condition coverage requires each atomic condition (x>=5 and y<20) to evaluate to both True and False at least once across the test suite. Options (a), (d), and (e) satisfy this requirement."
+  },
+  {
+    "id": "q_11_10",
+    "globalIndex": 120,
+    "assignment": 11,
+    "assignmentName": "Assignment 11",
+    "questionNumber": 10,
+    "topic": "White-Box Testing, Control Flow Graphs & Condition Coverage",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "At least how many test cases are needed for achieving decision coverage on the given C code?",
+    "codeSnippet": "int main() {\n  int x, y = 0;\n  scanf(\"%d\", &x);\n  if (x > 50)\n    y = y + 5;\n  else\n    y = y + 10;\n  if (x % 2 == 0)\n    y = y + 20;\n  else\n    y = y + 30;\n}",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      },
+      {
+        "key": "e",
+        "text": "5"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "solution": "Decision coverage requires each decision to evaluate to both True and False at least once. Two test cases are sufficient to cover all outcomes of both if statements"
+  },
+  {
+    "id": "q_12_1",
+    "globalIndex": 121,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 1,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding cyclomatic complexity are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Higher cyclomatic complexity for a code indicates higher code quality"
+      },
+      {
+        "key": "b",
+        "text": "Higher cyclomatic complexity may indicate more potential errors in code"
+      },
+      {
+        "key": "c",
+        "text": "Cyclomatic complexity correlates well with execution speed directly"
+      },
+      {
+        "key": "d",
+        "text": "Programs with higher complexity may require more effort to understand"
+      },
+      {
+        "key": "e",
+        "text": "Cyclomatic complexity can be related to the effort required for debugging"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "solution": "Higher cyclomatic complexity usually indicates more complex code, which may increase error probability, understanding difficulty, and debugging effort"
+  },
+  {
+    "id": "q_12_2",
+    "globalIndex": 122,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 2,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are true regarding the coverage strength of various white-box testing techniques?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Statement coverage is among the weakest criteria shown"
+      },
+      {
+        "key": "b",
+        "text": "All path coverage is among the strongest criteria shown"
+      },
+      {
+        "key": "c",
+        "text": "Branch coverage guarantees multiple-condition coverage"
+      },
+      {
+        "key": "d",
+        "text": "MC/DC is stronger than branch and condition coverage"
+      },
+      {
+        "key": "e",
+        "text": "Condition coverage alone guarantees branch coverage"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solution": "Statement coverage is relatively weak, while all path coverage is very strong. MC/DC is stronger than branch and condition coverage because it checks independent effect of each condition."
+  },
+  {
+    "id": "q_12_3",
+    "globalIndex": 123,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 3,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements about basis path coverage are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It is also known as all path coverage"
+      },
+      {
+        "key": "b",
+        "text": "It is stronger than statement coverage"
+      },
+      {
+        "key": "c",
+        "text": "It guarantees exhaustive testing of all possible paths"
+      },
+      {
+        "key": "d",
+        "text": "It is related to cyclomatic complexity"
+      },
+      {
+        "key": "e",
+        "text": "It is weaker than branch coverage"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "d"
+    ],
+    "solution": "Basis path coverage tests independent execution paths and is stronger than statement coverage. It is directly related to cyclomatic complexity."
+  },
+  {
+    "id": "q_12_4",
+    "globalIndex": 124,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 4,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding data flow testing are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "It focuses on the definition and use of variables in a program"
+      },
+      {
+        "key": "b",
+        "text": "It is a fault-based testing technique"
+      },
+      {
+        "key": "c",
+        "text": "It ignores control flow in the program completely"
+      },
+      {
+        "key": "d",
+        "text": "It helps detect anomalies such as variables being used before initialization"
+      },
+      {
+        "key": "e",
+        "text": "It is based on tracking the life cycle of data objects"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "d",
+      "e"
+    ],
+    "solution": "Data flow testing analyzes variable definitions and uses to detect anomalies like using variables before initialization by tracking the data life cycle."
+  },
+  {
+    "id": "q_12_5",
+    "globalIndex": 125,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 5,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following statements regarding mutation testing are true?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Equivalent mutants indicate that additional or improved test cases may be needed"
+      },
+      {
+        "key": "b",
+        "text": "Mutants are created by introducing small changes into the program"
+      },
+      {
+        "key": "c",
+        "text": "A mutant is said to be \u201ckilled\u201d if a test case fails due to the change"
+      },
+      {
+        "key": "d",
+        "text": "Mutation testing is primarily a black-box testing technique"
+      },
+      {
+        "key": "e",
+        "text": "Mutation testing helps evaluate the effectiveness of a test suite"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "solution": "Mutation testing creates small code changes called mutants. A mutant is \u201ckilled\u201d when test cases detect the change, helping evaluate test suite effectiveness."
+  },
+  {
+    "id": "q_12_6",
+    "globalIndex": 126,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 6,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are objectives of mutation testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Assess the fault-detection capability of test cases"
+      },
+      {
+        "key": "b",
+        "text": "Improve the quality of the test suite"
+      },
+      {
+        "key": "c",
+        "text": "Guarantee absence of all software defects"
+      },
+      {
+        "key": "d",
+        "text": "Identify weak test cases and eliminate them from the test suite"
+      },
+      {
+        "key": "e",
+        "text": "Identify duplicate and equivalent test cases and optimize the test suite"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "solution": "Mutation testing evaluates how effectively test cases detect faults and helps improve the quality of the test suite."
+  },
+  {
+    "id": "q_12_7",
+    "globalIndex": 127,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 7,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "In the context of mutation testing, suppose in a C program, the statement if(a > b) c=0; is replaced by if(a>=b-1) c=0; What kind of mutant has most likely been created?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Trivial mutant"
+      },
+      {
+        "key": "b",
+        "text": "Stillborn mutant"
+      },
+      {
+        "key": "c",
+        "text": "Higher-order mutant"
+      },
+      {
+        "key": "d",
+        "text": "Equivalent mutant"
+      },
+      {
+        "key": "e",
+        "text": "Syntax mutant"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "solution": "The modified condition behaves similarly to the original for many integer values, so the mutant may produce the same output as the original program."
+  },
+  {
+    "id": "q_12_8",
+    "globalIndex": 128,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 8,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "What would be the Cyclomatic complexity measure of the following program?",
+    "codeSnippet": "int check(int a, int b, int c) {\n  int result;\n  if (a < b)\n    if (a < c)\n      result = a;\n    else\n      result = c;\n  else\n    if (b < c)\n      result = b;\n    else\n      result = c;\n  return result;\n}",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "2 3 4 5 6"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "There are 3 if conditions, so complexity = \ud835\udfd1 + \ud835\udfcf = \ud835\udfd2."
+  },
+  {
+    "id": "q_12_9",
+    "globalIndex": 129,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 9,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MSQ",
+    "marks": 2,
+    "question": "Which of the following are major challenges associated with mutation testing?",
+    "codeSnippet": null,
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": "Mutation testing improves the fault-detection capability of test cases"
+      },
+      {
+        "key": "b",
+        "text": "Generating and managing mutants needs to be done manually, thereby resulting in a dramatic increase in testing costs"
+      },
+      {
+        "key": "c",
+        "text": "Large numbers of mutants may need to be executed"
+      },
+      {
+        "key": "d",
+        "text": "Equivalent mutants are difficult to identify automatically"
+      },
+      {
+        "key": "e",
+        "text": "Mutation testing is not as effective as other testing techniques"
+      }
+    ],
+    "correctAnswers": [
+      "c",
+      "d"
+    ],
+    "solution": "Mutation testing may require executing many mutants, and equivalent mutants are difficult to detect automatically, making the process expensive and complex."
+  },
+  {
+    "id": "q_12_10",
+    "globalIndex": 130,
+    "assignment": 12,
+    "assignmentName": "Assignment 12",
+    "questionNumber": 10,
+    "topic": "Path Coverage, Cyclomatic Complexity & Mutation Testing",
+    "type": "MCQ",
+    "marks": 2,
+    "question": "At least how many test cases are required to achieve MC/DC coverage of the following code segment:",
+    "codeSnippet": "if ((p > 10) && (q < 50))\n    y = y + 1;",
+    "image": null,
+    "options": [
+      {
+        "key": "a",
+        "text": ""
+      },
+      {
+        "key": "b",
+        "text": ""
+      },
+      {
+        "key": "c",
+        "text": ""
+      },
+      {
+        "key": "d",
+        "text": ""
+      },
+      {
+        "key": "e",
+        "text": "y = y + 1; 1 2 3 4 6"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "solution": "MC/DC requires each condition to independently affect the decision outcome. For two conditions, the minimum required test cases are 3."
+  }
+]

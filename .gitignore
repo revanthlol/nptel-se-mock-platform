@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+*.log
+temp_*
+extracted_images/
+extracted_diagrams/
+parse_test.py
+parse_deep.py
+save_diagrams.py
+__pycache__/
